@@ -5,7 +5,7 @@
     <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
     <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
     <META HTTP-EQUIV="EXPIRES" CONTENT="0">
-    <title>Multilanguage Pipeline Demo</title>
+    <title>NER English Demo</title>
     <link rel="stylesheet" type="text/css" href="./html/css/w3.css">
     <link rel="stylesheet" type="text/css" href="./html/css/multilang.css">
 	<script src="./html/js/jquery-3.5.1.min.js"></script>
