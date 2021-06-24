@@ -1,2 +1,2 @@
 # NER-English-Demo
-This repo is the frontend of NER Demo for English
+This repository is the frontend of NER Demo for English
