@@ -5,6 +5,22 @@ import requests
 import tabular
 import sys
 
+
+import hashlib
+import cache_NER
+from datetime import datetime
+
+################################ Cache Loading ################################
+# Instantiate Cache Class
+cache = cache_NER.CacheNER()
+        
+cache_cogcomp_onto = cache.load("cogcomp_onto")
+cache_cogcomp_conll = cache.load("cogcomp_conll")
+cache_kairos_ner = cache.load("kairos_ner")
+cache_onto_ner = cache.load("onto_ner")
+cache_conll = cache.load("conll")
+
+################################ Service Path ################################
 BASE_HTML_PATH = "./html"
 BASE_MULTILANG_NER_HTTP = 'http://dickens.seas.upenn.edu:4033/ner'
 # BASE_MULTILANG_EDL_HTTP = 'http://macniece.seas.upenn.edu:4032/edl'
@@ -103,51 +119,133 @@ def getMULTILANG_NER_COGCOMP(lang,text):
     #print('----------')
     return res_json
 '''
-
-def getMULTILANG_NER_COGCOMP_ONTO(lang,text):
-    input = {"lang":lang,"model":"cogcomp_onto","text":text}
+'''
+def get_NER_Eng(lang, text, model):
+    input = {"lang":lang,"model": model,"text":text}
     res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
     try:
         res_json = json.loads(res_out.text)
     except:
         res_json = {"text_tokens":[]}
+    return res_json
+'''
+
+def getMULTILANG_NER_COGCOMP_ONTO(lang,text):
+    global cache_cogcomp_onto
+    
+    hash_value = hashlib.sha1(text.encode()).hexdigest()
+
+    if cache.count(cache_cogcomp_onto) > 100:
+        cache.write('cogcomp_onto', cache_cogcomp_onto)
+        cache_cogcomp_onto = cache.load('cogcomp_onto')
+
+    if hash_value in cache_cogcomp_onto[lang].keys():
+        res_json, cache_cogcomp_onto = cache.read('cogcomp_onto', cache_cogcomp_onto, lang, hash_value)
+
+    else:
+        input = {"lang":lang,"model":"cogcomp_onto","text":text}
+        res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
+        try:
+            res_json = json.loads(res_out.text)
+        except:
+            res_json = {"text_tokens":[]}
+
+        cache_cogcomp_onto = cache.add('cogcomp_onto', cache_cogcomp_onto, lang, text, hash_value, res_json)
     return res_json
 
 def getMULTILANG_NER_COGCOMP_CONLL(lang,text):
-    input = {"lang":lang,"model":"cogcomp_conll","text":text}
-    res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
-    try:
-        res_json = json.loads(res_out.text)
-    except:
-        res_json = {"text_tokens":[]}
+    global cache_cogcomp_conll
+    
+    hash_value = hashlib.sha1(text.encode()).hexdigest()
+
+    if cache.count(cache_cogcomp_conll) > 100:
+        cache.write('cogcomp_conll', cache_cogcomp_conll)
+        cache_cogcomp_conll = cache.load('cogcomp_conll')
+
+    if hash_value in cache_cogcomp_conll[lang].keys():
+        res_json, cache_cogcomp_conll = cache.read('cogcomp_conll', cache_cogcomp_conll, lang, hash_value)
+
+    else:
+        input = {"lang":lang,"model":"cogcomp_conll","text":text}
+        res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
+        try:
+            res_json = json.loads(res_out.text)
+        except:
+            res_json = {"text_tokens":[]}
+
+        cache_cogcomp_conll = cache.add('cogcomp_conll', cache_cogcomp_conll, lang, text, hash_value, res_json)
     return res_json
 
 def getMULTILANG_NER_KAIROS_NER(lang,text):
-    input = {"lang":lang,"model":"kairos_ner","text":text}
-    res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
-    try:
-        res_json = json.loads(res_out.text)
-    except:
-        res_json = {"text_tokens":[]}
+    global cache_kairos_ner
+    
+    hash_value = hashlib.sha1(text.encode()).hexdigest()
+
+    if cache.count(cache_kairos_ner) > 100:
+        cache.write('kairos_ner', cache_kairos_ner)
+        cache_kairos_ner = cache.load('kairos_ner')
+
+    if hash_value in cache_kairos_ner[lang].keys():
+        res_json, cache_kairos_ner = cache.read('kairos_ner', cache_kairos_ner, lang, hash_value)
+
+    else:
+        input = {"lang":lang,"model":"kairos_ner","text":text}
+        res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
+        try:
+            res_json = json.loads(res_out.text)
+        except:
+            res_json = {"text_tokens":[]}
+
+        cache_kairos_ner = cache.add('kairos_ner', cache_kairos_ner, lang, text, hash_value, res_json)
     return res_json
 
 def getMULTILANG_NER_ONTO_NER(lang,text):
-    input = {"lang":lang,"model":"onto_ner","text":text}
-    res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
-    try:
-        res_json = json.loads(res_out.text)
-    except:
-        res_json = {"text_tokens":[]}
+    global cache_onto_ner
+    
+    hash_value = hashlib.sha1(text.encode()).hexdigest()
+
+    if cache.count(cache_onto_ner) > 100:
+        cache.write('onto_ner', cache_onto_ner)
+        cache_onto_ner = cache.load('onto_ner')
+
+    if hash_value in cache_onto_ner[lang].keys():
+        res_json, cache_onto_ner = cache.read('onto_ner', cache_onto_ner, lang, hash_value)
+
+    else:
+        input = {"lang":lang,"model":"onto_ner","text":text}
+        res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
+        try:
+            res_json = json.loads(res_out.text)
+        except:
+            res_json = {"text_tokens":[]}
+
+        cache_onto_ner = cache.add('onto_ner', cache_onto_ner, lang, text, hash_value, res_json)
     return res_json
 
 def getMULTILANG_NER_CONLL_NER(lang,text):
-    input = {"lang":lang,"model":"conll","text":text}
-    res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
-    try:
-        res_json = json.loads(res_out.text)
-    except:
-        res_json = {"text_tokens":[]}
+    global cache_conll
+    
+    hash_value = hashlib.sha1(text.encode()).hexdigest()
+
+    if cache.count(cache_conll) > 100:
+        cache.write('conll', cache_conll)
+        cache_conll = cache.load('conll')
+
+    if hash_value in cache_conll[lang].keys():
+        res_json, cache_conll = cache.read('conll', cache_conll, lang, hash_value)
+
+    else:
+        input = {"lang":lang,"model":"conll","text":text}
+        res_out = requests.get(BASE_MULTILANG_NER_HTTP, params = input)
+        try:
+            res_json = json.loads(res_out.text)
+        except:
+            res_json = {"text_tokens":[]}
+
+        cache_conll = cache.add('conll', cache_conll, lang, text, hash_value, res_json)
     return res_json
+
+
 '''
 def processNER(myTabularView,lang,text):
     # print('>>>>>>>>>>>>>>>> processNER')
@@ -247,11 +345,16 @@ def doProcessInnerCogComp(lang=None, text=None, anns=None):
     h += '</div><br>&nbsp;'
     return h
 '''
+
 def doProcessInnerCogComp(lang=None, text=None, anns=None, model=None):
+    '''
+    model:  "cogcomp_onto", "cogcomp_conll"
+    '''
     if model == 'cogcomp_onto':
         av = getMULTILANG_NER_COGCOMP_ONTO(lang,text)
     if model == 'cogcomp_conll':
         av = getMULTILANG_NER_COGCOMP_CONLL(lang,text)
+    #av = get_NER_Eng(lang,text,model)
     #print("!-------------------------------")
     #print(av)
     #print("!-------------------------------")
@@ -283,13 +386,16 @@ def doProcessInnerCogComp(lang=None, text=None, anns=None, model=None):
 
 
 def doProcessInnerNeural(lang=None, text=None, anns=None, model=None):
+    '''
+    model:  "kairos_ner", "onto_ner", "conll"
+    '''
     if model == 'kairos_ner':
         av = getMULTILANG_NER_KAIROS_NER(lang,text)
     if model == 'onto_ner':
         av = getMULTILANG_NER_ONTO_NER(lang,text)
     if model == 'conll':
         av = getMULTILANG_NER_CONLL_NER(lang,text)
-    
+    #av = get_NER_Eng(lang,text,model)
     #print("!--------------Neural-----------------")
     #print(anns)
     #print("!--------------------------------------------")
@@ -416,4 +522,10 @@ if __name__ == '__main__':
     }
     cherrypy.config.update(config)
     cherrypy.quickstart(MyWebService(), '/', config)
+
+    # cache.write('cogcomp_onto', cache_cogcomp_onto)
+    # cache.write('cogcomp_conll', cache_cogcomp_conll)
+    # cache.write('kairos_ner', cache_kairos_ner)
+    # cache.write('onto_ner', cache_onto_ner)
+    # cache.write('conll', cache_conll)
 

@@ -1,0 +1,2078 @@
+{
+    "eng": {
+        "27e7e7a3f15ebf1c09536d81b988aceacb85c2fe": {
+            "text": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst. Freud was born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire. He qualified as a doctor of medicine in 1881 at the University of Vienna. Freud lived and worked in Vienna, having set up his clinical practice there in 1886. In 1938, Freud left Austria to escape Nazi persecution. He died in exile in the United Kingdom in 1939.",
+            "res_json": {
+                "corpusId": "",
+                "id": "someFakeId",
+                "text": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst. Freud was born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire. He qualified as a doctor of medicine in 1881 at the University of Vienna. Freud lived and worked in Vienna, having set up his clinical practice there in 1886. In 1938, Freud left Austria to escape Nazi persecution. He died in exile in the United Kingdom in 1939.",
+                "tokens": [
+                    "Sigmund",
+                    "Freud",
+                    "was",
+                    "an",
+                    "Austrian",
+                    "neurologist",
+                    "and",
+                    "the",
+                    "founder",
+                    "of",
+                    "psychoanalysis",
+                    ",",
+                    "a",
+                    "clinical",
+                    "method",
+                    "for",
+                    "treating",
+                    "psychopathology",
+                    "through",
+                    "dialogue",
+                    "between",
+                    "a",
+                    "patient",
+                    "and",
+                    "a",
+                    "psychoanalyst",
+                    ".",
+                    "Freud",
+                    "was",
+                    "born",
+                    "to",
+                    "Galician",
+                    "Jewish",
+                    "parents",
+                    "in",
+                    "the",
+                    "Moravian",
+                    "town",
+                    "of",
+                    "Freiberg",
+                    ",",
+                    "in",
+                    "the",
+                    "Austrian",
+                    "Empire",
+                    ".",
+                    "He",
+                    "qualified",
+                    "as",
+                    "a",
+                    "doctor",
+                    "of",
+                    "medicine",
+                    "in",
+                    "1881",
+                    "at",
+                    "the",
+                    "University",
+                    "of",
+                    "Vienna",
+                    ".",
+                    "Freud",
+                    "lived",
+                    "and",
+                    "worked",
+                    "in",
+                    "Vienna",
+                    ",",
+                    "having",
+                    "set",
+                    "up",
+                    "his",
+                    "clinical",
+                    "practice",
+                    "there",
+                    "in",
+                    "1886",
+                    ".",
+                    "In",
+                    "1938",
+                    ",",
+                    "Freud",
+                    "left",
+                    "Austria",
+                    "to",
+                    "escape",
+                    "Nazi",
+                    "persecution",
+                    ".",
+                    "He",
+                    "died",
+                    "in",
+                    "exile",
+                    "in",
+                    "the",
+                    "United",
+                    "Kingdom",
+                    "in",
+                    "1939",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "UserSpecified",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        27,
+                        46,
+                        61,
+                        78,
+                        89,
+                        100
+                    ]
+                },
+                "views": [
+                    {
+                        "viewName": "NER_CONLL",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.View",
+                                "viewName": "NER_CONLL",
+                                "generator": "Ltf2TextAnnotation",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 2
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 27,
+                                        "end": 28
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 31,
+                                        "end": 33
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 39,
+                                        "end": 40
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 43,
+                                        "end": 45
+                                    },
+                                    {
+                                        "label": "ORG",
+                                        "score": 1.0,
+                                        "start": 57,
+                                        "end": 60
+                                    },
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 61,
+                                        "end": 62
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 66,
+                                        "end": 67
+                                    },
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 81,
+                                        "end": 82
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 83,
+                                        "end": 84
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 86,
+                                        "end": 87
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 95,
+                                        "end": 97
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "viewName": "SENTENCE",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.SpanLabelView",
+                                "viewName": "SENTENCE",
+                                "generator": "UserSpecified",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "SENTENCE",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "viewName": "TOKENS",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
+                                "viewName": "TOKENS",
+                                "generator": "UserSpecified",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 1
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 1,
+                                        "end": 2
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 3,
+                                        "end": 4
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 6,
+                                        "end": 7
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 7,
+                                        "end": 8
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 8,
+                                        "end": 9
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 9,
+                                        "end": 10
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 10,
+                                        "end": 11
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 13,
+                                        "end": 14
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 14,
+                                        "end": 15
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 16,
+                                        "end": 17
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 17,
+                                        "end": 18
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 21,
+                                        "end": 22
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 22,
+                                        "end": 23
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 23,
+                                        "end": 24
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 24,
+                                        "end": 25
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 25,
+                                        "end": 26
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 26,
+                                        "end": 27
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 27,
+                                        "end": 28
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 28,
+                                        "end": 29
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 29,
+                                        "end": 30
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 30,
+                                        "end": 31
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 31,
+                                        "end": 32
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 32,
+                                        "end": 33
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 33,
+                                        "end": 34
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 34,
+                                        "end": 35
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 35,
+                                        "end": 36
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 37,
+                                        "end": 38
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 38,
+                                        "end": 39
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 39,
+                                        "end": 40
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 40,
+                                        "end": 41
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 41,
+                                        "end": 42
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 42,
+                                        "end": 43
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 43,
+                                        "end": 44
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 44,
+                                        "end": 45
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 45,
+                                        "end": 46
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 46,
+                                        "end": 47
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 47,
+                                        "end": 48
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 48,
+                                        "end": 49
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 49,
+                                        "end": 50
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 50,
+                                        "end": 51
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 51,
+                                        "end": 52
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 52,
+                                        "end": 53
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 53,
+                                        "end": 54
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 54,
+                                        "end": 55
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 55,
+                                        "end": 56
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 56,
+                                        "end": 57
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 57,
+                                        "end": 58
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 58,
+                                        "end": 59
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 59,
+                                        "end": 60
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 60,
+                                        "end": 61
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 61,
+                                        "end": 62
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 62,
+                                        "end": 63
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 63,
+                                        "end": 64
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 64,
+                                        "end": 65
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 65,
+                                        "end": 66
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 66,
+                                        "end": 67
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 67,
+                                        "end": 68
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 68,
+                                        "end": 69
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 69,
+                                        "end": 70
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 70,
+                                        "end": 71
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 71,
+                                        "end": 72
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 72,
+                                        "end": 73
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 73,
+                                        "end": 74
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 74,
+                                        "end": 75
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 75,
+                                        "end": 76
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 76,
+                                        "end": 77
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 77,
+                                        "end": 78
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 78,
+                                        "end": 79
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 79,
+                                        "end": 80
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 80,
+                                        "end": 81
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 81,
+                                        "end": 82
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 82,
+                                        "end": 83
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 83,
+                                        "end": 84
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 84,
+                                        "end": 85
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 85,
+                                        "end": 86
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 86,
+                                        "end": 87
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 87,
+                                        "end": 88
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 88,
+                                        "end": 89
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 89,
+                                        "end": 90
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 90,
+                                        "end": 91
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 91,
+                                        "end": 92
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 92,
+                                        "end": 93
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 93,
+                                        "end": 94
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 94,
+                                        "end": 95
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 95,
+                                        "end": 96
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 96,
+                                        "end": 97
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 97,
+                                        "end": 98
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 98,
+                                        "end": 99
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 99,
+                                        "end": 100
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "56a81879fc30f515229212ee8980458a028dd8fb": {
+            "text": "Barack Hussein Obama II is an American politician and attorney who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, Obama was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and an Illinois state senator from 1997 to 2004.",
+            "res_json": {
+                "corpusId": "",
+                "id": "someFakeId",
+                "text": "Barack Hussein Obama II is an American politician and attorney who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, Obama was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and an Illinois state senator from 1997 to 2004.",
+                "tokens": [
+                    "Barack",
+                    "Hussein",
+                    "Obama",
+                    "II",
+                    "is",
+                    "an",
+                    "American",
+                    "politician",
+                    "and",
+                    "attorney",
+                    "who",
+                    "served",
+                    "as",
+                    "the",
+                    "44th",
+                    "president",
+                    "of",
+                    "the",
+                    "United",
+                    "States",
+                    "from",
+                    "2009",
+                    "to",
+                    "2017",
+                    ".",
+                    "A",
+                    "member",
+                    "of",
+                    "the",
+                    "Democratic",
+                    "Party",
+                    ",",
+                    "Obama",
+                    "was",
+                    "the",
+                    "first",
+                    "African",
+                    "-",
+                    "American",
+                    "president",
+                    "of",
+                    "the",
+                    "United",
+                    "States",
+                    ".",
+                    "He",
+                    "previously",
+                    "served",
+                    "as",
+                    "a",
+                    "U",
+                    ".",
+                    "S",
+                    ".",
+                    "senator",
+                    "from",
+                    "Illinois",
+                    "from",
+                    "2005",
+                    "to",
+                    "2008",
+                    "and",
+                    "an",
+                    "Illinois",
+                    "state",
+                    "senator",
+                    "from",
+                    "1997",
+                    "to",
+                    "2004",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "UserSpecified",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        25,
+                        45,
+                        71
+                    ]
+                },
+                "views": [
+                    {
+                        "viewName": "NER_CONLL",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.View",
+                                "viewName": "NER_CONLL",
+                                "generator": "Ltf2TextAnnotation",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 4
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 6,
+                                        "end": 7
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 18,
+                                        "end": 20
+                                    },
+                                    {
+                                        "label": "ORG",
+                                        "score": 1.0,
+                                        "start": 29,
+                                        "end": 31
+                                    },
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 32,
+                                        "end": 33
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 38,
+                                        "end": 39
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 42,
+                                        "end": 44
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 50,
+                                        "end": 53
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 56,
+                                        "end": 57
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 63,
+                                        "end": 64
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "viewName": "SENTENCE",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.SpanLabelView",
+                                "viewName": "SENTENCE",
+                                "generator": "UserSpecified",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "SENTENCE",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 71
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "viewName": "TOKENS",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
+                                "viewName": "TOKENS",
+                                "generator": "UserSpecified",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 1
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 1,
+                                        "end": 2
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 3,
+                                        "end": 4
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 6,
+                                        "end": 7
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 7,
+                                        "end": 8
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 8,
+                                        "end": 9
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 9,
+                                        "end": 10
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 10,
+                                        "end": 11
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 13,
+                                        "end": 14
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 14,
+                                        "end": 15
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 16,
+                                        "end": 17
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 17,
+                                        "end": 18
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 21,
+                                        "end": 22
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 22,
+                                        "end": 23
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 23,
+                                        "end": 24
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 24,
+                                        "end": 25
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 25,
+                                        "end": 26
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 26,
+                                        "end": 27
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 27,
+                                        "end": 28
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 28,
+                                        "end": 29
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 29,
+                                        "end": 30
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 30,
+                                        "end": 31
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 31,
+                                        "end": 32
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 32,
+                                        "end": 33
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 33,
+                                        "end": 34
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 34,
+                                        "end": 35
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 35,
+                                        "end": 36
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 37,
+                                        "end": 38
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 38,
+                                        "end": 39
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 39,
+                                        "end": 40
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 40,
+                                        "end": 41
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 41,
+                                        "end": 42
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 42,
+                                        "end": 43
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 43,
+                                        "end": 44
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 44,
+                                        "end": 45
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 45,
+                                        "end": 46
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 46,
+                                        "end": 47
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 47,
+                                        "end": 48
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 48,
+                                        "end": 49
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 49,
+                                        "end": 50
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 50,
+                                        "end": 51
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 51,
+                                        "end": 52
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 52,
+                                        "end": 53
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 53,
+                                        "end": 54
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 54,
+                                        "end": 55
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 55,
+                                        "end": 56
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 56,
+                                        "end": 57
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 57,
+                                        "end": 58
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 58,
+                                        "end": 59
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 59,
+                                        "end": 60
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 60,
+                                        "end": 61
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 61,
+                                        "end": 62
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 62,
+                                        "end": 63
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 63,
+                                        "end": 64
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 64,
+                                        "end": 65
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 65,
+                                        "end": 66
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 66,
+                                        "end": 67
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 67,
+                                        "end": 68
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 68,
+                                        "end": 69
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 69,
+                                        "end": 70
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 70,
+                                        "end": 71
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "6da167c9f8645da6116645e17c7ad65589320aac": {
+            "text": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist. He employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mah\u0101tm\u0101, first applied to him in 1914 in South Africa, is now used throughout the world.",
+            "res_json": {
+                "corpusId": "",
+                "id": "someFakeId",
+                "text": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist. He employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mah\u0101tm\u0101, first applied to him in 1914 in South Africa, is now used throughout the world.",
+                "tokens": [
+                    "Mohandas",
+                    "Karamchand",
+                    "Gandhi",
+                    "was",
+                    "an",
+                    "Indian",
+                    "lawyer",
+                    ",",
+                    "anti",
+                    "-",
+                    "colonial",
+                    "nationalist",
+                    ",",
+                    "and",
+                    "political",
+                    "ethicist",
+                    ".",
+                    "He",
+                    "employed",
+                    "nonviolent",
+                    "resistance",
+                    "to",
+                    "lead",
+                    "the",
+                    "successful",
+                    "campaign",
+                    "for",
+                    "India",
+                    "'",
+                    "s",
+                    "independence",
+                    "from",
+                    "British",
+                    "rule",
+                    ",",
+                    "and",
+                    "in",
+                    "turn",
+                    "inspired",
+                    "movements",
+                    "for",
+                    "civil",
+                    "rights",
+                    "and",
+                    "freedom",
+                    "across",
+                    "the",
+                    "world",
+                    ".",
+                    "The",
+                    "honorific",
+                    "Mah\u0101tm\u0101",
+                    ",",
+                    "first",
+                    "applied",
+                    "to",
+                    "him",
+                    "in",
+                    "1914",
+                    "in",
+                    "South",
+                    "Africa",
+                    ",",
+                    "is",
+                    "now",
+                    "used",
+                    "throughout",
+                    "the",
+                    "world",
+                    "."
+                ],
+                "sentences": {
+                    "generator": "UserSpecified",
+                    "score": 1.0,
+                    "sentenceEndPositions": [
+                        17,
+                        49,
+                        70
+                    ]
+                },
+                "views": [
+                    {
+                        "viewName": "NER_CONLL",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.View",
+                                "viewName": "NER_CONLL",
+                                "generator": "Ltf2TextAnnotation",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 3
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 27,
+                                        "end": 28
+                                    },
+                                    {
+                                        "label": "MISC",
+                                        "score": 1.0,
+                                        "start": 32,
+                                        "end": 33
+                                    },
+                                    {
+                                        "label": "PER",
+                                        "score": 1.0,
+                                        "start": 51,
+                                        "end": 52
+                                    },
+                                    {
+                                        "label": "LOC",
+                                        "score": 1.0,
+                                        "start": 60,
+                                        "end": 62
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "viewName": "SENTENCE",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.SpanLabelView",
+                                "viewName": "SENTENCE",
+                                "generator": "UserSpecified",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "SENTENCE",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "viewName": "TOKENS",
+                        "viewData": [
+                            {
+                                "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
+                                "viewName": "TOKENS",
+                                "generator": "UserSpecified",
+                                "score": 1.0,
+                                "constituents": [
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 0,
+                                        "end": 1
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 1,
+                                        "end": 2
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 2,
+                                        "end": 3
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 3,
+                                        "end": 4
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 4,
+                                        "end": 5
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 5,
+                                        "end": 6
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 6,
+                                        "end": 7
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 7,
+                                        "end": 8
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 8,
+                                        "end": 9
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 9,
+                                        "end": 10
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 10,
+                                        "end": 11
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 11,
+                                        "end": 12
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 12,
+                                        "end": 13
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 13,
+                                        "end": 14
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 14,
+                                        "end": 15
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 15,
+                                        "end": 16
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 16,
+                                        "end": 17
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 17,
+                                        "end": 18
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 18,
+                                        "end": 19
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 19,
+                                        "end": 20
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 20,
+                                        "end": 21
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 21,
+                                        "end": 22
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 22,
+                                        "end": 23
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 23,
+                                        "end": 24
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 24,
+                                        "end": 25
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 25,
+                                        "end": 26
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 26,
+                                        "end": 27
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 27,
+                                        "end": 28
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 28,
+                                        "end": 29
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 29,
+                                        "end": 30
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 30,
+                                        "end": 31
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 31,
+                                        "end": 32
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 32,
+                                        "end": 33
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 33,
+                                        "end": 34
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 34,
+                                        "end": 35
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 35,
+                                        "end": 36
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 36,
+                                        "end": 37
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 37,
+                                        "end": 38
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 38,
+                                        "end": 39
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 39,
+                                        "end": 40
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 40,
+                                        "end": 41
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 41,
+                                        "end": 42
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 42,
+                                        "end": 43
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 43,
+                                        "end": 44
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 44,
+                                        "end": 45
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 45,
+                                        "end": 46
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 46,
+                                        "end": 47
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 47,
+                                        "end": 48
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 48,
+                                        "end": 49
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 49,
+                                        "end": 50
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 50,
+                                        "end": 51
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 51,
+                                        "end": 52
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 52,
+                                        "end": 53
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 53,
+                                        "end": 54
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 54,
+                                        "end": 55
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 55,
+                                        "end": 56
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 56,
+                                        "end": 57
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 57,
+                                        "end": 58
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 58,
+                                        "end": 59
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 59,
+                                        "end": 60
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 60,
+                                        "end": 61
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 61,
+                                        "end": 62
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 62,
+                                        "end": 63
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 63,
+                                        "end": 64
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 64,
+                                        "end": 65
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 65,
+                                        "end": 66
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 66,
+                                        "end": 67
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 67,
+                                        "end": 68
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 68,
+                                        "end": 69
+                                    },
+                                    {
+                                        "label": "",
+                                        "score": 1.0,
+                                        "start": 69,
+                                        "end": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

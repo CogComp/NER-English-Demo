@@ -1,0 +1,4133 @@
+{
+    "eng": {
+        "27e7e7a3f15ebf1c09536d81b988aceacb85c2fe": {
+            "text": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst. Freud was born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire. He qualified as a doctor of medicine in 1881 at the University of Vienna. Freud lived and worked in Vienna, having set up his clinical practice there in 1886. In 1938, Freud left Austria to escape Nazi persecution. He died in exile in the United Kingdom in 1939.",
+            "res_json": {
+                "text_tokens": [
+                    "Sigmund",
+                    "Freud",
+                    "was",
+                    "an",
+                    "Austrian",
+                    "neurologist",
+                    "and",
+                    "the",
+                    "founder",
+                    "of",
+                    "psychoanalysis",
+                    ",",
+                    "a",
+                    "clinical",
+                    "method",
+                    "for",
+                    "treating",
+                    "psychopathology",
+                    "through",
+                    "dialogue",
+                    "between",
+                    "a",
+                    "patient",
+                    "and",
+                    "a",
+                    "psychoanalyst",
+                    ".",
+                    "Freud",
+                    "was",
+                    "born",
+                    "to",
+                    "Galician",
+                    "Jewish",
+                    "parents",
+                    "in",
+                    "the",
+                    "Moravian",
+                    "town",
+                    "of",
+                    "Freiberg",
+                    ",",
+                    "in",
+                    "the",
+                    "Austrian",
+                    "Empire",
+                    ".",
+                    "He",
+                    "qualified",
+                    "as",
+                    "a",
+                    "doctor",
+                    "of",
+                    "medicine",
+                    "in",
+                    "1881",
+                    "at",
+                    "the",
+                    "University",
+                    "of",
+                    "Vienna",
+                    ".",
+                    "Freud",
+                    "lived",
+                    "and",
+                    "worked",
+                    "in",
+                    "Vienna",
+                    ",",
+                    "having",
+                    "set",
+                    "up",
+                    "his",
+                    "clinical",
+                    "practice",
+                    "there",
+                    "in",
+                    "1886",
+                    ".",
+                    "In",
+                    "1938",
+                    ",",
+                    "Freud",
+                    "left",
+                    "Austria",
+                    "to",
+                    "escape",
+                    "Nazi",
+                    "persecution",
+                    ".",
+                    "He",
+                    "died",
+                    "in",
+                    "exile",
+                    "in",
+                    "the",
+                    "United",
+                    "Kingdom",
+                    "in",
+                    "1939",
+                    "."
+                ],
+                "ner_tags": [
+                    "B-PER",
+                    "I-PER",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-PER",
+                    "O",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "O",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-DATE",
+                    "O",
+                    "B-ORG",
+                    "I-ORG",
+                    "I-ORG",
+                    "I-ORG",
+                    "O",
+                    "B-PER",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-DATE",
+                    "O",
+                    "O",
+                    "B-DATE",
+                    "O",
+                    "B-PER",
+                    "O",
+                    "B-GPE",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "I-GPE",
+                    "I-GPE",
+                    "O",
+                    "B-DATE",
+                    "O"
+                ],
+                "spans": [
+                    [
+                        "NORP",
+                        [
+                            43,
+                            43
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            4,
+                            4
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            36,
+                            36
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            83,
+                            83
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            94,
+                            96
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            86,
+                            86
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            27,
+                            27
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            61,
+                            61
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            98,
+                            98
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            39,
+                            39
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            54,
+                            54
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            66,
+                            66
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            76,
+                            76
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            79,
+                            79
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            81,
+                            81
+                        ]
+                    ],
+                    [
+                        "ORG",
+                        [
+                            56,
+                            59
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            31,
+                            31
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            0,
+                            1
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            32,
+                            32
+                        ]
+                    ]
+                ],
+                "text_annotation": {
+                    "corpusId": "",
+                    "id": "someFakeId",
+                    "text": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst. Freud was born to Galician Jewish parents in the Moravian town of Freiberg, in the Austrian Empire. He qualified as a doctor of medicine in 1881 at the University of Vienna. Freud lived and worked in Vienna, having set up his clinical practice there in 1886. In 1938, Freud left Austria to escape Nazi persecution. He died in exile in the United Kingdom in 1939.",
+                    "tokens": [
+                        "Sigmund",
+                        "Freud",
+                        "was",
+                        "an",
+                        "Austrian",
+                        "neurologist",
+                        "and",
+                        "the",
+                        "founder",
+                        "of",
+                        "psychoanalysis",
+                        ",",
+                        "a",
+                        "clinical",
+                        "method",
+                        "for",
+                        "treating",
+                        "psychopathology",
+                        "through",
+                        "dialogue",
+                        "between",
+                        "a",
+                        "patient",
+                        "and",
+                        "a",
+                        "psychoanalyst",
+                        ".",
+                        "Freud",
+                        "was",
+                        "born",
+                        "to",
+                        "Galician",
+                        "Jewish",
+                        "parents",
+                        "in",
+                        "the",
+                        "Moravian",
+                        "town",
+                        "of",
+                        "Freiberg",
+                        ",",
+                        "in",
+                        "the",
+                        "Austrian",
+                        "Empire",
+                        ".",
+                        "He",
+                        "qualified",
+                        "as",
+                        "a",
+                        "doctor",
+                        "of",
+                        "medicine",
+                        "in",
+                        "1881",
+                        "at",
+                        "the",
+                        "University",
+                        "of",
+                        "Vienna",
+                        ".",
+                        "Freud",
+                        "lived",
+                        "and",
+                        "worked",
+                        "in",
+                        "Vienna",
+                        ",",
+                        "having",
+                        "set",
+                        "up",
+                        "his",
+                        "clinical",
+                        "practice",
+                        "there",
+                        "in",
+                        "1886",
+                        ".",
+                        "In",
+                        "1938",
+                        ",",
+                        "Freud",
+                        "left",
+                        "Austria",
+                        "to",
+                        "escape",
+                        "Nazi",
+                        "persecution",
+                        ".",
+                        "He",
+                        "died",
+                        "in",
+                        "exile",
+                        "in",
+                        "the",
+                        "United",
+                        "Kingdom",
+                        "in",
+                        "1939",
+                        "."
+                    ],
+                    "tokenOffsets": [
+                        {
+                            "form": "Sigmund",
+                            "startCharOffset": 0,
+                            "endCharOffset": 7
+                        },
+                        {
+                            "form": "Freud",
+                            "startCharOffset": 8,
+                            "endCharOffset": 13
+                        },
+                        {
+                            "form": "was",
+                            "startCharOffset": 14,
+                            "endCharOffset": 17
+                        },
+                        {
+                            "form": "an",
+                            "startCharOffset": 18,
+                            "endCharOffset": 20
+                        },
+                        {
+                            "form": "Austrian",
+                            "startCharOffset": 21,
+                            "endCharOffset": 29
+                        },
+                        {
+                            "form": "neurologist",
+                            "startCharOffset": 30,
+                            "endCharOffset": 41
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 42,
+                            "endCharOffset": 45
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 46,
+                            "endCharOffset": 49
+                        },
+                        {
+                            "form": "founder",
+                            "startCharOffset": 50,
+                            "endCharOffset": 57
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 58,
+                            "endCharOffset": 60
+                        },
+                        {
+                            "form": "psychoanalysis",
+                            "startCharOffset": 61,
+                            "endCharOffset": 75
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 75,
+                            "endCharOffset": 76
+                        },
+                        {
+                            "form": "a",
+                            "startCharOffset": 77,
+                            "endCharOffset": 78
+                        },
+                        {
+                            "form": "clinical",
+                            "startCharOffset": 79,
+                            "endCharOffset": 87
+                        },
+                        {
+                            "form": "method",
+                            "startCharOffset": 88,
+                            "endCharOffset": 94
+                        },
+                        {
+                            "form": "for",
+                            "startCharOffset": 95,
+                            "endCharOffset": 98
+                        },
+                        {
+                            "form": "treating",
+                            "startCharOffset": 99,
+                            "endCharOffset": 107
+                        },
+                        {
+                            "form": "psychopathology",
+                            "startCharOffset": 108,
+                            "endCharOffset": 123
+                        },
+                        {
+                            "form": "through",
+                            "startCharOffset": 124,
+                            "endCharOffset": 131
+                        },
+                        {
+                            "form": "dialogue",
+                            "startCharOffset": 132,
+                            "endCharOffset": 140
+                        },
+                        {
+                            "form": "between",
+                            "startCharOffset": 141,
+                            "endCharOffset": 148
+                        },
+                        {
+                            "form": "a",
+                            "startCharOffset": 149,
+                            "endCharOffset": 150
+                        },
+                        {
+                            "form": "patient",
+                            "startCharOffset": 151,
+                            "endCharOffset": 158
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 159,
+                            "endCharOffset": 162
+                        },
+                        {
+                            "form": "a",
+                            "startCharOffset": 163,
+                            "endCharOffset": 164
+                        },
+                        {
+                            "form": "psychoanalyst",
+                            "startCharOffset": 165,
+                            "endCharOffset": 178
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 178,
+                            "endCharOffset": 179
+                        },
+                        {
+                            "form": "Freud",
+                            "startCharOffset": 180,
+                            "endCharOffset": 185
+                        },
+                        {
+                            "form": "was",
+                            "startCharOffset": 186,
+                            "endCharOffset": 189
+                        },
+                        {
+                            "form": "born",
+                            "startCharOffset": 190,
+                            "endCharOffset": 194
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 195,
+                            "endCharOffset": 197
+                        },
+                        {
+                            "form": "Galician",
+                            "startCharOffset": 198,
+                            "endCharOffset": 206
+                        },
+                        {
+                            "form": "Jewish",
+                            "startCharOffset": 207,
+                            "endCharOffset": 213
+                        },
+                        {
+                            "form": "parents",
+                            "startCharOffset": 214,
+                            "endCharOffset": 221
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 222,
+                            "endCharOffset": 224
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 225,
+                            "endCharOffset": 228
+                        },
+                        {
+                            "form": "Moravian",
+                            "startCharOffset": 229,
+                            "endCharOffset": 237
+                        },
+                        {
+                            "form": "town",
+                            "startCharOffset": 238,
+                            "endCharOffset": 242
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 243,
+                            "endCharOffset": 245
+                        },
+                        {
+                            "form": "Freiberg",
+                            "startCharOffset": 246,
+                            "endCharOffset": 254
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 254,
+                            "endCharOffset": 255
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 256,
+                            "endCharOffset": 258
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 259,
+                            "endCharOffset": 262
+                        },
+                        {
+                            "form": "Austrian",
+                            "startCharOffset": 263,
+                            "endCharOffset": 271
+                        },
+                        {
+                            "form": "Empire",
+                            "startCharOffset": 272,
+                            "endCharOffset": 278
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 278,
+                            "endCharOffset": 279
+                        },
+                        {
+                            "form": "He",
+                            "startCharOffset": 280,
+                            "endCharOffset": 282
+                        },
+                        {
+                            "form": "qualified",
+                            "startCharOffset": 283,
+                            "endCharOffset": 292
+                        },
+                        {
+                            "form": "as",
+                            "startCharOffset": 293,
+                            "endCharOffset": 295
+                        },
+                        {
+                            "form": "a",
+                            "startCharOffset": 296,
+                            "endCharOffset": 297
+                        },
+                        {
+                            "form": "doctor",
+                            "startCharOffset": 298,
+                            "endCharOffset": 304
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 305,
+                            "endCharOffset": 307
+                        },
+                        {
+                            "form": "medicine",
+                            "startCharOffset": 308,
+                            "endCharOffset": 316
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 317,
+                            "endCharOffset": 319
+                        },
+                        {
+                            "form": "1881",
+                            "startCharOffset": 320,
+                            "endCharOffset": 324
+                        },
+                        {
+                            "form": "at",
+                            "startCharOffset": 325,
+                            "endCharOffset": 327
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 328,
+                            "endCharOffset": 331
+                        },
+                        {
+                            "form": "University",
+                            "startCharOffset": 332,
+                            "endCharOffset": 342
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 343,
+                            "endCharOffset": 345
+                        },
+                        {
+                            "form": "Vienna",
+                            "startCharOffset": 346,
+                            "endCharOffset": 352
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 352,
+                            "endCharOffset": 353
+                        },
+                        {
+                            "form": "Freud",
+                            "startCharOffset": 354,
+                            "endCharOffset": 359
+                        },
+                        {
+                            "form": "lived",
+                            "startCharOffset": 360,
+                            "endCharOffset": 365
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 366,
+                            "endCharOffset": 369
+                        },
+                        {
+                            "form": "worked",
+                            "startCharOffset": 370,
+                            "endCharOffset": 376
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 377,
+                            "endCharOffset": 379
+                        },
+                        {
+                            "form": "Vienna",
+                            "startCharOffset": 380,
+                            "endCharOffset": 386
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 386,
+                            "endCharOffset": 387
+                        },
+                        {
+                            "form": "having",
+                            "startCharOffset": 388,
+                            "endCharOffset": 394
+                        },
+                        {
+                            "form": "set",
+                            "startCharOffset": 395,
+                            "endCharOffset": 398
+                        },
+                        {
+                            "form": "up",
+                            "startCharOffset": 399,
+                            "endCharOffset": 401
+                        },
+                        {
+                            "form": "his",
+                            "startCharOffset": 402,
+                            "endCharOffset": 405
+                        },
+                        {
+                            "form": "clinical",
+                            "startCharOffset": 406,
+                            "endCharOffset": 414
+                        },
+                        {
+                            "form": "practice",
+                            "startCharOffset": 415,
+                            "endCharOffset": 423
+                        },
+                        {
+                            "form": "there",
+                            "startCharOffset": 424,
+                            "endCharOffset": 429
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 430,
+                            "endCharOffset": 432
+                        },
+                        {
+                            "form": "1886",
+                            "startCharOffset": 433,
+                            "endCharOffset": 437
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 437,
+                            "endCharOffset": 438
+                        },
+                        {
+                            "form": "In",
+                            "startCharOffset": 439,
+                            "endCharOffset": 441
+                        },
+                        {
+                            "form": "1938",
+                            "startCharOffset": 442,
+                            "endCharOffset": 446
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 446,
+                            "endCharOffset": 447
+                        },
+                        {
+                            "form": "Freud",
+                            "startCharOffset": 448,
+                            "endCharOffset": 453
+                        },
+                        {
+                            "form": "left",
+                            "startCharOffset": 454,
+                            "endCharOffset": 458
+                        },
+                        {
+                            "form": "Austria",
+                            "startCharOffset": 459,
+                            "endCharOffset": 466
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 467,
+                            "endCharOffset": 469
+                        },
+                        {
+                            "form": "escape",
+                            "startCharOffset": 470,
+                            "endCharOffset": 476
+                        },
+                        {
+                            "form": "Nazi",
+                            "startCharOffset": 477,
+                            "endCharOffset": 481
+                        },
+                        {
+                            "form": "persecution",
+                            "startCharOffset": 482,
+                            "endCharOffset": 493
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 493,
+                            "endCharOffset": 494
+                        },
+                        {
+                            "form": "He",
+                            "startCharOffset": 495,
+                            "endCharOffset": 497
+                        },
+                        {
+                            "form": "died",
+                            "startCharOffset": 498,
+                            "endCharOffset": 502
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 503,
+                            "endCharOffset": 505
+                        },
+                        {
+                            "form": "exile",
+                            "startCharOffset": 506,
+                            "endCharOffset": 511
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 512,
+                            "endCharOffset": 514
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 515,
+                            "endCharOffset": 518
+                        },
+                        {
+                            "form": "United",
+                            "startCharOffset": 519,
+                            "endCharOffset": 525
+                        },
+                        {
+                            "form": "Kingdom",
+                            "startCharOffset": 526,
+                            "endCharOffset": 533
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 534,
+                            "endCharOffset": 536
+                        },
+                        {
+                            "form": "1939",
+                            "startCharOffset": 537,
+                            "endCharOffset": 541
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 541,
+                            "endCharOffset": 542
+                        }
+                    ],
+                    "sentences": {
+                        "generator": "UserSpecified",
+                        "score": 1.0,
+                        "sentenceEndPositions": [
+                            100
+                        ]
+                    },
+                    "views": [
+                        {
+                            "viewName": "NER_CONLL",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.View",
+                                    "viewName": "NER_CONLL",
+                                    "generator": "Ltf2TextAnnotation",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 43,
+                                            "end": 44
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 4,
+                                            "end": 5
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 36,
+                                            "end": 37
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 83,
+                                            "end": 84
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 94,
+                                            "end": 97
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 86,
+                                            "end": 87
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 61,
+                                            "end": 62
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 98,
+                                            "end": 99
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 39,
+                                            "end": 40
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 54,
+                                            "end": 55
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 66,
+                                            "end": 67
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 76,
+                                            "end": 77
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 79,
+                                            "end": 80
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 81,
+                                            "end": 82
+                                        },
+                                        {
+                                            "label": "ORG",
+                                            "score": 1.0,
+                                            "start": 56,
+                                            "end": 60
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 31,
+                                            "end": 32
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 2
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "viewName": "SENTENCE",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.SpanLabelView",
+                                    "viewName": "SENTENCE",
+                                    "generator": "UserSpecified",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "SENTENCE",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 100
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "viewName": "TOKENS",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
+                                    "viewName": "TOKENS",
+                                    "generator": "UserSpecified",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 1
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 1,
+                                            "end": 2
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 2,
+                                            "end": 3
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 3,
+                                            "end": 4
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 4,
+                                            "end": 5
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 5,
+                                            "end": 6
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 6,
+                                            "end": 7
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 7,
+                                            "end": 8
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 8,
+                                            "end": 9
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 9,
+                                            "end": 10
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 13,
+                                            "end": 14
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 15,
+                                            "end": 16
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 17,
+                                            "end": 18
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 18,
+                                            "end": 19
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 19,
+                                            "end": 20
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 20,
+                                            "end": 21
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 21,
+                                            "end": 22
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 22,
+                                            "end": 23
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 23,
+                                            "end": 24
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 24,
+                                            "end": 25
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 25,
+                                            "end": 26
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 26,
+                                            "end": 27
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 28,
+                                            "end": 29
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 29,
+                                            "end": 30
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 30,
+                                            "end": 31
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 31,
+                                            "end": 32
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 33,
+                                            "end": 34
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 34,
+                                            "end": 35
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 35,
+                                            "end": 36
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 36,
+                                            "end": 37
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 37,
+                                            "end": 38
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 38,
+                                            "end": 39
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 39,
+                                            "end": 40
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 40,
+                                            "end": 41
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 41,
+                                            "end": 42
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 42,
+                                            "end": 43
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 43,
+                                            "end": 44
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 44,
+                                            "end": 45
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 45,
+                                            "end": 46
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 46,
+                                            "end": 47
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 47,
+                                            "end": 48
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 48,
+                                            "end": 49
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 49,
+                                            "end": 50
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 50,
+                                            "end": 51
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 51,
+                                            "end": 52
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 52,
+                                            "end": 53
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 53,
+                                            "end": 54
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 54,
+                                            "end": 55
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 55,
+                                            "end": 56
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 56,
+                                            "end": 57
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 57,
+                                            "end": 58
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 58,
+                                            "end": 59
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 59,
+                                            "end": 60
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 60,
+                                            "end": 61
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 61,
+                                            "end": 62
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 62,
+                                            "end": 63
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 63,
+                                            "end": 64
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 64,
+                                            "end": 65
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 65,
+                                            "end": 66
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 66,
+                                            "end": 67
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 67,
+                                            "end": 68
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 68,
+                                            "end": 69
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 69,
+                                            "end": 70
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 70,
+                                            "end": 71
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 71,
+                                            "end": 72
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 72,
+                                            "end": 73
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 73,
+                                            "end": 74
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 74,
+                                            "end": 75
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 75,
+                                            "end": 76
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 76,
+                                            "end": 77
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 77,
+                                            "end": 78
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 78,
+                                            "end": 79
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 79,
+                                            "end": 80
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 80,
+                                            "end": 81
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 81,
+                                            "end": 82
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 82,
+                                            "end": 83
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 83,
+                                            "end": 84
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 84,
+                                            "end": 85
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 85,
+                                            "end": 86
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 86,
+                                            "end": 87
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 87,
+                                            "end": 88
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 88,
+                                            "end": 89
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 89,
+                                            "end": 90
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 90,
+                                            "end": 91
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 91,
+                                            "end": 92
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 92,
+                                            "end": 93
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 93,
+                                            "end": 94
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 94,
+                                            "end": 95
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 95,
+                                            "end": 96
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 96,
+                                            "end": 97
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 97,
+                                            "end": 98
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 98,
+                                            "end": 99
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 99,
+                                            "end": 100
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "56a81879fc30f515229212ee8980458a028dd8fb": {
+            "text": "Barack Hussein Obama II is an American politician and attorney who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, Obama was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and an Illinois state senator from 1997 to 2004.",
+            "res_json": {
+                "text_tokens": [
+                    "Barack",
+                    "Hussein",
+                    "Obama",
+                    "II",
+                    "is",
+                    "an",
+                    "American",
+                    "politician",
+                    "and",
+                    "attorney",
+                    "who",
+                    "served",
+                    "as",
+                    "the",
+                    "44th",
+                    "president",
+                    "of",
+                    "the",
+                    "United",
+                    "States",
+                    "from",
+                    "2009",
+                    "to",
+                    "2017",
+                    ".",
+                    "A",
+                    "member",
+                    "of",
+                    "the",
+                    "Democratic",
+                    "Party",
+                    ",",
+                    "Obama",
+                    "was",
+                    "the",
+                    "first",
+                    "African",
+                    "-",
+                    "American",
+                    "president",
+                    "of",
+                    "the",
+                    "United",
+                    "States",
+                    ".",
+                    "He",
+                    "previously",
+                    "served",
+                    "as",
+                    "a",
+                    "U",
+                    ".",
+                    "S",
+                    ".",
+                    "senator",
+                    "from",
+                    "Illinois",
+                    "from",
+                    "2005",
+                    "to",
+                    "2008",
+                    "and",
+                    "an",
+                    "Illinois",
+                    "state",
+                    "senator",
+                    "from",
+                    "1997",
+                    "to",
+                    "2004",
+                    "."
+                ],
+                "ner_tags": [
+                    "B-ORG",
+                    "I-ORG",
+                    "I-ORG",
+                    "I-ORG",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ORDINAL",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "I-GPE",
+                    "I-GPE",
+                    "O",
+                    "B-DATE",
+                    "I-DATE",
+                    "I-DATE",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ORG",
+                    "I-ORG",
+                    "I-ORG",
+                    "O",
+                    "B-ORG",
+                    "O",
+                    "O",
+                    "B-ORDINAL",
+                    "B-NORP",
+                    "I-NORP",
+                    "I-NORP",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "I-GPE",
+                    "I-GPE",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ORG",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "O",
+                    "B-DATE",
+                    "I-DATE",
+                    "I-DATE",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "O",
+                    "O",
+                    "O",
+                    "B-DATE",
+                    "I-DATE",
+                    "I-DATE",
+                    "O"
+                ],
+                "spans": [
+                    [
+                        "GPE",
+                        [
+                            63,
+                            63
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            58,
+                            60
+                        ]
+                    ],
+                    [
+                        "ORDINAL",
+                        [
+                            14,
+                            14
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            36,
+                            38
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            41,
+                            43
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            56,
+                            56
+                        ]
+                    ],
+                    [
+                        "ORG",
+                        [
+                            0,
+                            3
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            6,
+                            6
+                        ]
+                    ],
+                    [
+                        "ORDINAL",
+                        [
+                            35,
+                            35
+                        ]
+                    ],
+                    [
+                        "ORG",
+                        [
+                            28,
+                            30
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            21,
+                            23
+                        ]
+                    ],
+                    [
+                        "ORG",
+                        [
+                            32,
+                            32
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            17,
+                            19
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            67,
+                            69
+                        ]
+                    ],
+                    [
+                        "ORG",
+                        [
+                            50,
+                            50
+                        ]
+                    ]
+                ],
+                "text_annotation": {
+                    "corpusId": "",
+                    "id": "someFakeId",
+                    "text": "Barack Hussein Obama II is an American politician and attorney who served as the 44th president of the United States from 2009 to 2017. A member of the Democratic Party, Obama was the first African-American president of the United States. He previously served as a U.S. senator from Illinois from 2005 to 2008 and an Illinois state senator from 1997 to 2004.",
+                    "tokens": [
+                        "Barack",
+                        "Hussein",
+                        "Obama",
+                        "II",
+                        "is",
+                        "an",
+                        "American",
+                        "politician",
+                        "and",
+                        "attorney",
+                        "who",
+                        "served",
+                        "as",
+                        "the",
+                        "44th",
+                        "president",
+                        "of",
+                        "the",
+                        "United",
+                        "States",
+                        "from",
+                        "2009",
+                        "to",
+                        "2017",
+                        ".",
+                        "A",
+                        "member",
+                        "of",
+                        "the",
+                        "Democratic",
+                        "Party",
+                        ",",
+                        "Obama",
+                        "was",
+                        "the",
+                        "first",
+                        "African",
+                        "-",
+                        "American",
+                        "president",
+                        "of",
+                        "the",
+                        "United",
+                        "States",
+                        ".",
+                        "He",
+                        "previously",
+                        "served",
+                        "as",
+                        "a",
+                        "U",
+                        ".",
+                        "S",
+                        ".",
+                        "senator",
+                        "from",
+                        "Illinois",
+                        "from",
+                        "2005",
+                        "to",
+                        "2008",
+                        "and",
+                        "an",
+                        "Illinois",
+                        "state",
+                        "senator",
+                        "from",
+                        "1997",
+                        "to",
+                        "2004",
+                        "."
+                    ],
+                    "tokenOffsets": [
+                        {
+                            "form": "Barack",
+                            "startCharOffset": 0,
+                            "endCharOffset": 6
+                        },
+                        {
+                            "form": "Hussein",
+                            "startCharOffset": 7,
+                            "endCharOffset": 14
+                        },
+                        {
+                            "form": "Obama",
+                            "startCharOffset": 15,
+                            "endCharOffset": 20
+                        },
+                        {
+                            "form": "II",
+                            "startCharOffset": 21,
+                            "endCharOffset": 23
+                        },
+                        {
+                            "form": "is",
+                            "startCharOffset": 24,
+                            "endCharOffset": 26
+                        },
+                        {
+                            "form": "an",
+                            "startCharOffset": 27,
+                            "endCharOffset": 29
+                        },
+                        {
+                            "form": "American",
+                            "startCharOffset": 30,
+                            "endCharOffset": 38
+                        },
+                        {
+                            "form": "politician",
+                            "startCharOffset": 39,
+                            "endCharOffset": 49
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 50,
+                            "endCharOffset": 53
+                        },
+                        {
+                            "form": "attorney",
+                            "startCharOffset": 54,
+                            "endCharOffset": 62
+                        },
+                        {
+                            "form": "who",
+                            "startCharOffset": 63,
+                            "endCharOffset": 66
+                        },
+                        {
+                            "form": "served",
+                            "startCharOffset": 67,
+                            "endCharOffset": 73
+                        },
+                        {
+                            "form": "as",
+                            "startCharOffset": 74,
+                            "endCharOffset": 76
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 77,
+                            "endCharOffset": 80
+                        },
+                        {
+                            "form": "44th",
+                            "startCharOffset": 81,
+                            "endCharOffset": 85
+                        },
+                        {
+                            "form": "president",
+                            "startCharOffset": 86,
+                            "endCharOffset": 95
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 96,
+                            "endCharOffset": 98
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 99,
+                            "endCharOffset": 102
+                        },
+                        {
+                            "form": "United",
+                            "startCharOffset": 103,
+                            "endCharOffset": 109
+                        },
+                        {
+                            "form": "States",
+                            "startCharOffset": 110,
+                            "endCharOffset": 116
+                        },
+                        {
+                            "form": "from",
+                            "startCharOffset": 117,
+                            "endCharOffset": 121
+                        },
+                        {
+                            "form": "2009",
+                            "startCharOffset": 122,
+                            "endCharOffset": 126
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 127,
+                            "endCharOffset": 129
+                        },
+                        {
+                            "form": "2017",
+                            "startCharOffset": 130,
+                            "endCharOffset": 134
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 134,
+                            "endCharOffset": 135
+                        },
+                        {
+                            "form": "A",
+                            "startCharOffset": 136,
+                            "endCharOffset": 137
+                        },
+                        {
+                            "form": "member",
+                            "startCharOffset": 138,
+                            "endCharOffset": 144
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 145,
+                            "endCharOffset": 147
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 148,
+                            "endCharOffset": 151
+                        },
+                        {
+                            "form": "Democratic",
+                            "startCharOffset": 152,
+                            "endCharOffset": 162
+                        },
+                        {
+                            "form": "Party",
+                            "startCharOffset": 163,
+                            "endCharOffset": 168
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 168,
+                            "endCharOffset": 169
+                        },
+                        {
+                            "form": "Obama",
+                            "startCharOffset": 170,
+                            "endCharOffset": 175
+                        },
+                        {
+                            "form": "was",
+                            "startCharOffset": 176,
+                            "endCharOffset": 179
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 180,
+                            "endCharOffset": 183
+                        },
+                        {
+                            "form": "first",
+                            "startCharOffset": 184,
+                            "endCharOffset": 189
+                        },
+                        {
+                            "form": "African",
+                            "startCharOffset": 190,
+                            "endCharOffset": 197
+                        },
+                        {
+                            "form": "-",
+                            "startCharOffset": 197,
+                            "endCharOffset": 198
+                        },
+                        {
+                            "form": "American",
+                            "startCharOffset": 198,
+                            "endCharOffset": 206
+                        },
+                        {
+                            "form": "president",
+                            "startCharOffset": 207,
+                            "endCharOffset": 216
+                        },
+                        {
+                            "form": "of",
+                            "startCharOffset": 217,
+                            "endCharOffset": 219
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 220,
+                            "endCharOffset": 223
+                        },
+                        {
+                            "form": "United",
+                            "startCharOffset": 224,
+                            "endCharOffset": 230
+                        },
+                        {
+                            "form": "States",
+                            "startCharOffset": 231,
+                            "endCharOffset": 237
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 237,
+                            "endCharOffset": 238
+                        },
+                        {
+                            "form": "He",
+                            "startCharOffset": 239,
+                            "endCharOffset": 241
+                        },
+                        {
+                            "form": "previously",
+                            "startCharOffset": 242,
+                            "endCharOffset": 252
+                        },
+                        {
+                            "form": "served",
+                            "startCharOffset": 253,
+                            "endCharOffset": 259
+                        },
+                        {
+                            "form": "as",
+                            "startCharOffset": 260,
+                            "endCharOffset": 262
+                        },
+                        {
+                            "form": "a",
+                            "startCharOffset": 263,
+                            "endCharOffset": 264
+                        },
+                        {
+                            "form": "U",
+                            "startCharOffset": 265,
+                            "endCharOffset": 266
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 266,
+                            "endCharOffset": 267
+                        },
+                        {
+                            "form": "S",
+                            "startCharOffset": 267,
+                            "endCharOffset": 268
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 268,
+                            "endCharOffset": 269
+                        },
+                        {
+                            "form": "senator",
+                            "startCharOffset": 270,
+                            "endCharOffset": 277
+                        },
+                        {
+                            "form": "from",
+                            "startCharOffset": 278,
+                            "endCharOffset": 282
+                        },
+                        {
+                            "form": "Illinois",
+                            "startCharOffset": 283,
+                            "endCharOffset": 291
+                        },
+                        {
+                            "form": "from",
+                            "startCharOffset": 292,
+                            "endCharOffset": 296
+                        },
+                        {
+                            "form": "2005",
+                            "startCharOffset": 297,
+                            "endCharOffset": 301
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 302,
+                            "endCharOffset": 304
+                        },
+                        {
+                            "form": "2008",
+                            "startCharOffset": 305,
+                            "endCharOffset": 309
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 310,
+                            "endCharOffset": 313
+                        },
+                        {
+                            "form": "an",
+                            "startCharOffset": 314,
+                            "endCharOffset": 316
+                        },
+                        {
+                            "form": "Illinois",
+                            "startCharOffset": 317,
+                            "endCharOffset": 325
+                        },
+                        {
+                            "form": "state",
+                            "startCharOffset": 326,
+                            "endCharOffset": 331
+                        },
+                        {
+                            "form": "senator",
+                            "startCharOffset": 332,
+                            "endCharOffset": 339
+                        },
+                        {
+                            "form": "from",
+                            "startCharOffset": 340,
+                            "endCharOffset": 344
+                        },
+                        {
+                            "form": "1997",
+                            "startCharOffset": 345,
+                            "endCharOffset": 349
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 350,
+                            "endCharOffset": 352
+                        },
+                        {
+                            "form": "2004",
+                            "startCharOffset": 353,
+                            "endCharOffset": 357
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 357,
+                            "endCharOffset": 358
+                        }
+                    ],
+                    "sentences": {
+                        "generator": "UserSpecified",
+                        "score": 1.0,
+                        "sentenceEndPositions": [
+                            71
+                        ]
+                    },
+                    "views": [
+                        {
+                            "viewName": "NER_CONLL",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.View",
+                                    "viewName": "NER_CONLL",
+                                    "generator": "Ltf2TextAnnotation",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 63,
+                                            "end": 64
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 58,
+                                            "end": 61
+                                        },
+                                        {
+                                            "label": "ORDINAL",
+                                            "score": 1.0,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 36,
+                                            "end": 39
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 41,
+                                            "end": 44
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 56,
+                                            "end": 57
+                                        },
+                                        {
+                                            "label": "ORG",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 4
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 6,
+                                            "end": 7
+                                        },
+                                        {
+                                            "label": "ORDINAL",
+                                            "score": 1.0,
+                                            "start": 35,
+                                            "end": 36
+                                        },
+                                        {
+                                            "label": "ORG",
+                                            "score": 1.0,
+                                            "start": 28,
+                                            "end": 31
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 21,
+                                            "end": 24
+                                        },
+                                        {
+                                            "label": "ORG",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 17,
+                                            "end": 20
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 67,
+                                            "end": 70
+                                        },
+                                        {
+                                            "label": "ORG",
+                                            "score": 1.0,
+                                            "start": 50,
+                                            "end": 51
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "viewName": "SENTENCE",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.SpanLabelView",
+                                    "viewName": "SENTENCE",
+                                    "generator": "UserSpecified",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "SENTENCE",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 71
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "viewName": "TOKENS",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
+                                    "viewName": "TOKENS",
+                                    "generator": "UserSpecified",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 1
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 1,
+                                            "end": 2
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 2,
+                                            "end": 3
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 3,
+                                            "end": 4
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 4,
+                                            "end": 5
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 5,
+                                            "end": 6
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 6,
+                                            "end": 7
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 7,
+                                            "end": 8
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 8,
+                                            "end": 9
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 9,
+                                            "end": 10
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 13,
+                                            "end": 14
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 15,
+                                            "end": 16
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 17,
+                                            "end": 18
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 18,
+                                            "end": 19
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 19,
+                                            "end": 20
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 20,
+                                            "end": 21
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 21,
+                                            "end": 22
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 22,
+                                            "end": 23
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 23,
+                                            "end": 24
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 24,
+                                            "end": 25
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 25,
+                                            "end": 26
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 26,
+                                            "end": 27
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 28,
+                                            "end": 29
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 29,
+                                            "end": 30
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 30,
+                                            "end": 31
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 31,
+                                            "end": 32
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 33,
+                                            "end": 34
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 34,
+                                            "end": 35
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 35,
+                                            "end": 36
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 36,
+                                            "end": 37
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 37,
+                                            "end": 38
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 38,
+                                            "end": 39
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 39,
+                                            "end": 40
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 40,
+                                            "end": 41
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 41,
+                                            "end": 42
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 42,
+                                            "end": 43
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 43,
+                                            "end": 44
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 44,
+                                            "end": 45
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 45,
+                                            "end": 46
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 46,
+                                            "end": 47
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 47,
+                                            "end": 48
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 48,
+                                            "end": 49
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 49,
+                                            "end": 50
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 50,
+                                            "end": 51
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 51,
+                                            "end": 52
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 52,
+                                            "end": 53
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 53,
+                                            "end": 54
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 54,
+                                            "end": 55
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 55,
+                                            "end": 56
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 56,
+                                            "end": 57
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 57,
+                                            "end": 58
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 58,
+                                            "end": 59
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 59,
+                                            "end": 60
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 60,
+                                            "end": 61
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 61,
+                                            "end": 62
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 62,
+                                            "end": 63
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 63,
+                                            "end": 64
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 64,
+                                            "end": 65
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 65,
+                                            "end": 66
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 66,
+                                            "end": 67
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 67,
+                                            "end": 68
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 68,
+                                            "end": 69
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 69,
+                                            "end": 70
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 70,
+                                            "end": 71
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "6da167c9f8645da6116645e17c7ad65589320aac": {
+            "text": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist. He employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mah\u0101tm\u0101, first applied to him in 1914 in South Africa, is now used throughout the world.",
+            "res_json": {
+                "text_tokens": [
+                    "Mohandas",
+                    "Karamchand",
+                    "Gandhi",
+                    "was",
+                    "an",
+                    "Indian",
+                    "lawyer",
+                    ",",
+                    "anti",
+                    "-",
+                    "colonial",
+                    "nationalist",
+                    ",",
+                    "and",
+                    "political",
+                    "ethicist",
+                    ".",
+                    "He",
+                    "employed",
+                    "nonviolent",
+                    "resistance",
+                    "to",
+                    "lead",
+                    "the",
+                    "successful",
+                    "campaign",
+                    "for",
+                    "India",
+                    "'",
+                    "s",
+                    "independence",
+                    "from",
+                    "British",
+                    "rule",
+                    ",",
+                    "and",
+                    "in",
+                    "turn",
+                    "inspired",
+                    "movements",
+                    "for",
+                    "civil",
+                    "rights",
+                    "and",
+                    "freedom",
+                    "across",
+                    "the",
+                    "world",
+                    ".",
+                    "The",
+                    "honorific",
+                    "Mah\u0101tm\u0101",
+                    ",",
+                    "first",
+                    "applied",
+                    "to",
+                    "him",
+                    "in",
+                    "1914",
+                    "in",
+                    "South",
+                    "Africa",
+                    ",",
+                    "is",
+                    "now",
+                    "used",
+                    "throughout",
+                    "the",
+                    "world",
+                    "."
+                ],
+                "ner_tags": [
+                    "B-PER",
+                    "I-PER",
+                    "I-PER",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-GPE",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-NORP",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-ORDINAL",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "B-DATE",
+                    "O",
+                    "B-GPE",
+                    "I-GPE",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O",
+                    "O"
+                ],
+                "spans": [
+                    [
+                        "NORP",
+                        [
+                            5,
+                            5
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            60,
+                            61
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            27,
+                            27
+                        ]
+                    ],
+                    [
+                        "ORDINAL",
+                        [
+                            53,
+                            53
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            58,
+                            58
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            0,
+                            2
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            32,
+                            32
+                        ]
+                    ]
+                ],
+                "text_annotation": {
+                    "corpusId": "",
+                    "id": "someFakeId",
+                    "text": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political ethicist. He employed nonviolent resistance to lead the successful campaign for India's independence from British rule, and in turn inspired movements for civil rights and freedom across the world. The honorific Mah\u0101tm\u0101, first applied to him in 1914 in South Africa, is now used throughout the world.",
+                    "tokens": [
+                        "Mohandas",
+                        "Karamchand",
+                        "Gandhi",
+                        "was",
+                        "an",
+                        "Indian",
+                        "lawyer",
+                        ",",
+                        "anti",
+                        "-",
+                        "colonial",
+                        "nationalist",
+                        ",",
+                        "and",
+                        "political",
+                        "ethicist",
+                        ".",
+                        "He",
+                        "employed",
+                        "nonviolent",
+                        "resistance",
+                        "to",
+                        "lead",
+                        "the",
+                        "successful",
+                        "campaign",
+                        "for",
+                        "India",
+                        "'",
+                        "s",
+                        "independence",
+                        "from",
+                        "British",
+                        "rule",
+                        ",",
+                        "and",
+                        "in",
+                        "turn",
+                        "inspired",
+                        "movements",
+                        "for",
+                        "civil",
+                        "rights",
+                        "and",
+                        "freedom",
+                        "across",
+                        "the",
+                        "world",
+                        ".",
+                        "The",
+                        "honorific",
+                        "Mah\u0101tm\u0101",
+                        ",",
+                        "first",
+                        "applied",
+                        "to",
+                        "him",
+                        "in",
+                        "1914",
+                        "in",
+                        "South",
+                        "Africa",
+                        ",",
+                        "is",
+                        "now",
+                        "used",
+                        "throughout",
+                        "the",
+                        "world",
+                        "."
+                    ],
+                    "tokenOffsets": [
+                        {
+                            "form": "Mohandas",
+                            "startCharOffset": 0,
+                            "endCharOffset": 8
+                        },
+                        {
+                            "form": "Karamchand",
+                            "startCharOffset": 9,
+                            "endCharOffset": 19
+                        },
+                        {
+                            "form": "Gandhi",
+                            "startCharOffset": 20,
+                            "endCharOffset": 26
+                        },
+                        {
+                            "form": "was",
+                            "startCharOffset": 27,
+                            "endCharOffset": 30
+                        },
+                        {
+                            "form": "an",
+                            "startCharOffset": 31,
+                            "endCharOffset": 33
+                        },
+                        {
+                            "form": "Indian",
+                            "startCharOffset": 34,
+                            "endCharOffset": 40
+                        },
+                        {
+                            "form": "lawyer",
+                            "startCharOffset": 41,
+                            "endCharOffset": 47
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 47,
+                            "endCharOffset": 48
+                        },
+                        {
+                            "form": "anti",
+                            "startCharOffset": 49,
+                            "endCharOffset": 53
+                        },
+                        {
+                            "form": "-",
+                            "startCharOffset": 53,
+                            "endCharOffset": 54
+                        },
+                        {
+                            "form": "colonial",
+                            "startCharOffset": 54,
+                            "endCharOffset": 62
+                        },
+                        {
+                            "form": "nationalist",
+                            "startCharOffset": 63,
+                            "endCharOffset": 74
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 74,
+                            "endCharOffset": 75
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 76,
+                            "endCharOffset": 79
+                        },
+                        {
+                            "form": "political",
+                            "startCharOffset": 80,
+                            "endCharOffset": 89
+                        },
+                        {
+                            "form": "ethicist",
+                            "startCharOffset": 90,
+                            "endCharOffset": 98
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 98,
+                            "endCharOffset": 99
+                        },
+                        {
+                            "form": "He",
+                            "startCharOffset": 100,
+                            "endCharOffset": 102
+                        },
+                        {
+                            "form": "employed",
+                            "startCharOffset": 103,
+                            "endCharOffset": 111
+                        },
+                        {
+                            "form": "nonviolent",
+                            "startCharOffset": 112,
+                            "endCharOffset": 122
+                        },
+                        {
+                            "form": "resistance",
+                            "startCharOffset": 123,
+                            "endCharOffset": 133
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 134,
+                            "endCharOffset": 136
+                        },
+                        {
+                            "form": "lead",
+                            "startCharOffset": 137,
+                            "endCharOffset": 141
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 142,
+                            "endCharOffset": 145
+                        },
+                        {
+                            "form": "successful",
+                            "startCharOffset": 146,
+                            "endCharOffset": 156
+                        },
+                        {
+                            "form": "campaign",
+                            "startCharOffset": 157,
+                            "endCharOffset": 165
+                        },
+                        {
+                            "form": "for",
+                            "startCharOffset": 166,
+                            "endCharOffset": 169
+                        },
+                        {
+                            "form": "India",
+                            "startCharOffset": 170,
+                            "endCharOffset": 175
+                        },
+                        {
+                            "form": "'",
+                            "startCharOffset": 175,
+                            "endCharOffset": 176
+                        },
+                        {
+                            "form": "s",
+                            "startCharOffset": 176,
+                            "endCharOffset": 177
+                        },
+                        {
+                            "form": "independence",
+                            "startCharOffset": 178,
+                            "endCharOffset": 190
+                        },
+                        {
+                            "form": "from",
+                            "startCharOffset": 191,
+                            "endCharOffset": 195
+                        },
+                        {
+                            "form": "British",
+                            "startCharOffset": 196,
+                            "endCharOffset": 203
+                        },
+                        {
+                            "form": "rule",
+                            "startCharOffset": 204,
+                            "endCharOffset": 208
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 208,
+                            "endCharOffset": 209
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 210,
+                            "endCharOffset": 213
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 214,
+                            "endCharOffset": 216
+                        },
+                        {
+                            "form": "turn",
+                            "startCharOffset": 217,
+                            "endCharOffset": 221
+                        },
+                        {
+                            "form": "inspired",
+                            "startCharOffset": 222,
+                            "endCharOffset": 230
+                        },
+                        {
+                            "form": "movements",
+                            "startCharOffset": 231,
+                            "endCharOffset": 240
+                        },
+                        {
+                            "form": "for",
+                            "startCharOffset": 241,
+                            "endCharOffset": 244
+                        },
+                        {
+                            "form": "civil",
+                            "startCharOffset": 245,
+                            "endCharOffset": 250
+                        },
+                        {
+                            "form": "rights",
+                            "startCharOffset": 251,
+                            "endCharOffset": 257
+                        },
+                        {
+                            "form": "and",
+                            "startCharOffset": 258,
+                            "endCharOffset": 261
+                        },
+                        {
+                            "form": "freedom",
+                            "startCharOffset": 262,
+                            "endCharOffset": 269
+                        },
+                        {
+                            "form": "across",
+                            "startCharOffset": 270,
+                            "endCharOffset": 276
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 277,
+                            "endCharOffset": 280
+                        },
+                        {
+                            "form": "world",
+                            "startCharOffset": 281,
+                            "endCharOffset": 286
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 286,
+                            "endCharOffset": 287
+                        },
+                        {
+                            "form": "The",
+                            "startCharOffset": 288,
+                            "endCharOffset": 291
+                        },
+                        {
+                            "form": "honorific",
+                            "startCharOffset": 292,
+                            "endCharOffset": 301
+                        },
+                        {
+                            "form": "Mah\u0101tm\u0101",
+                            "startCharOffset": 302,
+                            "endCharOffset": 309
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 309,
+                            "endCharOffset": 310
+                        },
+                        {
+                            "form": "first",
+                            "startCharOffset": 311,
+                            "endCharOffset": 316
+                        },
+                        {
+                            "form": "applied",
+                            "startCharOffset": 317,
+                            "endCharOffset": 324
+                        },
+                        {
+                            "form": "to",
+                            "startCharOffset": 325,
+                            "endCharOffset": 327
+                        },
+                        {
+                            "form": "him",
+                            "startCharOffset": 328,
+                            "endCharOffset": 331
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 332,
+                            "endCharOffset": 334
+                        },
+                        {
+                            "form": "1914",
+                            "startCharOffset": 335,
+                            "endCharOffset": 339
+                        },
+                        {
+                            "form": "in",
+                            "startCharOffset": 340,
+                            "endCharOffset": 342
+                        },
+                        {
+                            "form": "South",
+                            "startCharOffset": 343,
+                            "endCharOffset": 348
+                        },
+                        {
+                            "form": "Africa",
+                            "startCharOffset": 349,
+                            "endCharOffset": 355
+                        },
+                        {
+                            "form": ",",
+                            "startCharOffset": 355,
+                            "endCharOffset": 356
+                        },
+                        {
+                            "form": "is",
+                            "startCharOffset": 357,
+                            "endCharOffset": 359
+                        },
+                        {
+                            "form": "now",
+                            "startCharOffset": 360,
+                            "endCharOffset": 363
+                        },
+                        {
+                            "form": "used",
+                            "startCharOffset": 364,
+                            "endCharOffset": 368
+                        },
+                        {
+                            "form": "throughout",
+                            "startCharOffset": 369,
+                            "endCharOffset": 379
+                        },
+                        {
+                            "form": "the",
+                            "startCharOffset": 380,
+                            "endCharOffset": 383
+                        },
+                        {
+                            "form": "world",
+                            "startCharOffset": 384,
+                            "endCharOffset": 389
+                        },
+                        {
+                            "form": ".",
+                            "startCharOffset": 389,
+                            "endCharOffset": 390
+                        }
+                    ],
+                    "sentences": {
+                        "generator": "UserSpecified",
+                        "score": 1.0,
+                        "sentenceEndPositions": [
+                            70
+                        ]
+                    },
+                    "views": [
+                        {
+                            "viewName": "NER_CONLL",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.View",
+                                    "viewName": "NER_CONLL",
+                                    "generator": "Ltf2TextAnnotation",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 5,
+                                            "end": 6
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 60,
+                                            "end": 62
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        {
+                                            "label": "ORDINAL",
+                                            "score": 1.0,
+                                            "start": 53,
+                                            "end": 54
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 58,
+                                            "end": 59
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 3
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "viewName": "SENTENCE",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.SpanLabelView",
+                                    "viewName": "SENTENCE",
+                                    "generator": "UserSpecified",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "SENTENCE",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 70
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "viewName": "TOKENS",
+                            "viewData": [
+                                {
+                                    "viewType": "edu.illinois.cs.cogcomp.core.datastructures.textannotation.TokenLabelView",
+                                    "viewName": "TOKENS",
+                                    "generator": "UserSpecified",
+                                    "score": 1.0,
+                                    "constituents": [
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 0,
+                                            "end": 1
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 1,
+                                            "end": 2
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 2,
+                                            "end": 3
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 3,
+                                            "end": 4
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 4,
+                                            "end": 5
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 5,
+                                            "end": 6
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 6,
+                                            "end": 7
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 7,
+                                            "end": 8
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 8,
+                                            "end": 9
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 9,
+                                            "end": 10
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 10,
+                                            "end": 11
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 11,
+                                            "end": 12
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 12,
+                                            "end": 13
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 13,
+                                            "end": 14
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 14,
+                                            "end": 15
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 15,
+                                            "end": 16
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 16,
+                                            "end": 17
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 17,
+                                            "end": 18
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 18,
+                                            "end": 19
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 19,
+                                            "end": 20
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 20,
+                                            "end": 21
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 21,
+                                            "end": 22
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 22,
+                                            "end": 23
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 23,
+                                            "end": 24
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 24,
+                                            "end": 25
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 25,
+                                            "end": 26
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 26,
+                                            "end": 27
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 28,
+                                            "end": 29
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 29,
+                                            "end": 30
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 30,
+                                            "end": 31
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 31,
+                                            "end": 32
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 33,
+                                            "end": 34
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 34,
+                                            "end": 35
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 35,
+                                            "end": 36
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 36,
+                                            "end": 37
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 37,
+                                            "end": 38
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 38,
+                                            "end": 39
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 39,
+                                            "end": 40
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 40,
+                                            "end": 41
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 41,
+                                            "end": 42
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 42,
+                                            "end": 43
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 43,
+                                            "end": 44
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 44,
+                                            "end": 45
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 45,
+                                            "end": 46
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 46,
+                                            "end": 47
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 47,
+                                            "end": 48
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 48,
+                                            "end": 49
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 49,
+                                            "end": 50
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 50,
+                                            "end": 51
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 51,
+                                            "end": 52
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 52,
+                                            "end": 53
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 53,
+                                            "end": 54
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 54,
+                                            "end": 55
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 55,
+                                            "end": 56
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 56,
+                                            "end": 57
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 57,
+                                            "end": 58
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 58,
+                                            "end": 59
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 59,
+                                            "end": 60
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 60,
+                                            "end": 61
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 61,
+                                            "end": 62
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 62,
+                                            "end": 63
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 63,
+                                            "end": 64
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 64,
+                                            "end": 65
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 65,
+                                            "end": 66
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 66,
+                                            "end": 67
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 67,
+                                            "end": 68
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 68,
+                                            "end": 69
+                                        },
+                                        {
+                                            "label": "",
+                                            "score": 1.0,
+                                            "start": 69,
+                                            "end": 70
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
