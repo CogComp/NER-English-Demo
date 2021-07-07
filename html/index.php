@@ -20,25 +20,28 @@
 			<div class="w3-left">
 				<label> <b>Annotators</b> </label>
 				<br>
-				<input class="w3-check annotator" type="checkbox" checked="checked" id="cogcomp_onto">
-				<label class="container">cogcomp_onto</label>
-				<input class="w3-check annotator" type="checkbox" checked="checked" id="cogcomp_conll">
-				<label class="container">cogcomp_conll</label>
-				<input class="w3-check annotator" type="checkbox" checked="checked" id="kairos_ner">
-				<label class="container">neural_kairos</label>
+				<input class="w3-check annotator" type="checkbox" checked="checked" id="conll">
+				<label class="container">neural_conll</label>
 				<input class="w3-check annotator" type="checkbox" checked="checked" id="onto_ner">
 				<label class="container">neural_onto</label>
-				<input class="w3-check annotator" type="checkbox" checked="checked" id="conll">
-				<label class="container">neural_conll</label> <!-- notes the element here -->
+				<input class="w3-check annotator" type="checkbox" checked="checked" id="cogcomp_conll">
+				<label class="container">cogcomp_conll</label>
+				<input class="w3-check annotator" type="checkbox" checked="checked" id="cogcomp_onto">
+				<label class="container">cogcomp_onto</label>
+				<input class="w3-check annotator" type="checkbox" checked="checked" id="kairos_ner">
+				<label class="container">neural_kairos</label>
+				
+				 
 			</div>
 			<div class="w3-right">
+			<!--
 				<div class="w3-left">
 					<label> <b>Languages:</b> </label>
 					<br>
 					<select class="w3-select w3-border" id="lang" name="lang" value="eng" onChange="javascript:newLanguageSelect();" style="width:128px;">
-						<!--<option value="">Select a language... -->
 					</select>
 				</div>
+			-->
 				<div class="w3-left">
 					<label> <b>Examples:</b> </label>
 					<br>

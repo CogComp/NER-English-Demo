@@ -462,25 +462,25 @@ class MyWebService(object):
         # print(">>>>>>>>>", data["text"])
         
         html = ""
-        if "cogcomp_onto" in data["anns"]:
-            html += '<div class="subtitle">CogComp: OntoNotes</div>'#<br>'
-            html += doProcessInnerCogComp(data["lang"] , data["text"] , data["anns"], model="cogcomp_onto")
-         
-        if "cogcomp_conll" in data["anns"]:
-            html += '<div class="subtitle">CogComp: CoNLL</div>'#<br>'
-            html += doProcessInnerCogComp(data["lang"] , data["text"] , data["anns"], model="cogcomp_conll")
-
-        if "kairos_ner" in data["anns"]:
-            html += '<div class="subtitle">Neural: KAIROS</div>'#<br>'
-            html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="kairos_ner")
+        if "conll" in data["anns"]:
+            html += '<div class="subtitle">Neural: CoNLL</div>'#<br>'
+            html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="conll")
         
         if "onto_ner" in data["anns"]:
             html += '<div class="subtitle">Neural: OntoNotes</div>'#<br>'
             html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="onto_ner")
+            
+        if "cogcomp_conll" in data["anns"]:
+            html += '<div class="subtitle">CogComp: CoNLL</div>'#<br>'
+            html += doProcessInnerCogComp(data["lang"] , data["text"] , data["anns"], model="cogcomp_conll")
 
-        if "conll" in data["anns"]:
-            html += '<div class="subtitle">Neural: CoNLL</div>'#<br>'
-            html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="conll")
+        if "cogcomp_onto" in data["anns"]:
+            html += '<div class="subtitle">CogComp: OntoNotes</div>'#<br>'
+            html += doProcessInnerCogComp(data["lang"] , data["text"] , data["anns"], model="cogcomp_onto")
+
+        if "kairos_ner" in data["anns"]:
+            html += '<div class="subtitle">Neural: KAIROS</div>'#<br>'
+            html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="kairos_ner")
         
         #self._myTabularView = tabular.TabularView()
         #html = doProcess(self._myTabularView, data["lang"] , data["text"] , data["anns"])

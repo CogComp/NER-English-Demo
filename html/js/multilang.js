@@ -23,33 +23,7 @@ var xel_examples = {
     ]
 }
 
-function fillLanguageSelectField() {
-	selectField = document.getElementById("lang");
 
-	textField = document.getElementById("text");
-	for (var key in xel_langs) {
-		if (xel_langs.hasOwnProperty(key)) {           
-			var opt = document.createElement("option");
-			opt.value=key;
-			opt.innerHTML = xel_langs[key]; // ["lang"]; 
-			selectField.appendChild(opt);
-			console.log(selectField)
-		}
-	}	
-	selectField.value = "eng";
-	// textField.value = xel_langs["eng"]["text"];
-	fillExampleSelectField(selectField.value)
-}
-
-function newLanguageSelect() {
-	hideResult();
-	langSelectField = document.getElementById("lang");
-	lang = langSelectField.value;
-	fillExampleSelectField(lang);
-	//textField = document.getElementById("text");
-	//textField.value = xel_langs[languageSelected]["text"]; 
-	//$("#result").html( "" );
-}
 
 function fillExampleSelectField(lang="eng") {
 	hideResult();
@@ -72,8 +46,10 @@ function fillExampleSelectField(lang="eng") {
 
 function newExampleSelect() {
 	hideResult();
-	langSelectField = document.getElementById("lang");
-	lang = langSelectField.value;
+	//langSelectField = document.getElementById("lang");
+	//lang = langSelectField.value;
+	fillExampleSelectField(lang="eng");
+	lang = "eng"
 	exampleSelectField = document.getElementById("example");
 	example = exampleSelectField.value;
 	textField = document.getElementById("text");
@@ -150,7 +126,7 @@ function formSubmit() {
 	$("#result").html("Working...");
 	showResult();
 	anns = getSelectedAnnotators();
-	lang = document.getElementById("lang").value;
+	lang = "eng";
 	text = document.getElementById("text").value;
 	data = {
 		"lang": lang,
@@ -170,8 +146,8 @@ function formSubmit() {
 }
 
 function main() {
-	// fillExampleSelectField();
-	fillLanguageSelectField();
+	fillExampleSelectField();
+	//fillLanguageSelectField();
 }
 
 
