@@ -209,10 +209,17 @@
                 ],
                 "spans": [
                     [
+                        "DATE",
+                        [
+                            76,
+                            76
+                        ]
+                    ],
+                    [
                         "NORP",
                         [
-                            43,
-                            43
+                            86,
+                            86
                         ]
                     ],
                     [
@@ -232,57 +239,15 @@
                     [
                         "GPE",
                         [
-                            83,
-                            83
-                        ]
-                    ],
-                    [
-                        "GPE",
-                        [
-                            94,
-                            96
-                        ]
-                    ],
-                    [
-                        "NORP",
-                        [
-                            86,
-                            86
-                        ]
-                    ],
-                    [
-                        "PER",
-                        [
-                            27,
-                            27
-                        ]
-                    ],
-                    [
-                        "PER",
-                        [
-                            61,
-                            61
-                        ]
-                    ],
-                    [
-                        "DATE",
-                        [
-                            98,
-                            98
-                        ]
-                    ],
-                    [
-                        "GPE",
-                        [
                             39,
                             39
                         ]
                     ],
                     [
-                        "DATE",
+                        "NORP",
                         [
-                            54,
-                            54
+                            43,
+                            43
                         ]
                     ],
                     [
@@ -293,24 +258,24 @@
                         ]
                     ],
                     [
-                        "DATE",
-                        [
-                            76,
-                            76
-                        ]
-                    ],
-                    [
-                        "DATE",
-                        [
-                            79,
-                            79
-                        ]
-                    ],
-                    [
                         "PER",
                         [
-                            81,
-                            81
+                            0,
+                            1
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            54,
+                            54
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            32,
+                            32
                         ]
                     ],
                     [
@@ -330,15 +295,50 @@
                     [
                         "PER",
                         [
-                            0,
-                            1
+                            81,
+                            81
                         ]
                     ],
                     [
-                        "NORP",
+                        "DATE",
                         [
-                            32,
-                            32
+                            98,
+                            98
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            94,
+                            96
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            27,
+                            27
+                        ]
+                    ],
+                    [
+                        "PER",
+                        [
+                            61,
+                            61
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            79,
+                            79
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            83,
+                            83
                         ]
                     ]
                 ],
@@ -968,10 +968,16 @@
                                     "score": 1.0,
                                     "constituents": [
                                         {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 76,
+                                            "end": 77
+                                        },
+                                        {
                                             "label": "NORP",
                                             "score": 1.0,
-                                            "start": 43,
-                                            "end": 44
+                                            "start": 86,
+                                            "end": 87
                                         },
                                         {
                                             "label": "NORP",
@@ -988,50 +994,14 @@
                                         {
                                             "label": "GPE",
                                             "score": 1.0,
-                                            "start": 83,
-                                            "end": 84
-                                        },
-                                        {
-                                            "label": "GPE",
-                                            "score": 1.0,
-                                            "start": 94,
-                                            "end": 97
-                                        },
-                                        {
-                                            "label": "NORP",
-                                            "score": 1.0,
-                                            "start": 86,
-                                            "end": 87
-                                        },
-                                        {
-                                            "label": "PER",
-                                            "score": 1.0,
-                                            "start": 27,
-                                            "end": 28
-                                        },
-                                        {
-                                            "label": "PER",
-                                            "score": 1.0,
-                                            "start": 61,
-                                            "end": 62
-                                        },
-                                        {
-                                            "label": "DATE",
-                                            "score": 1.0,
-                                            "start": 98,
-                                            "end": 99
-                                        },
-                                        {
-                                            "label": "GPE",
-                                            "score": 1.0,
                                             "start": 39,
                                             "end": 40
                                         },
                                         {
-                                            "label": "DATE",
+                                            "label": "NORP",
                                             "score": 1.0,
-                                            "start": 54,
-                                            "end": 55
+                                            "start": 43,
+                                            "end": 44
                                         },
                                         {
                                             "label": "GPE",
@@ -1040,22 +1010,22 @@
                                             "end": 67
                                         },
                                         {
-                                            "label": "DATE",
-                                            "score": 1.0,
-                                            "start": 76,
-                                            "end": 77
-                                        },
-                                        {
-                                            "label": "DATE",
-                                            "score": 1.0,
-                                            "start": 79,
-                                            "end": 80
-                                        },
-                                        {
                                             "label": "PER",
                                             "score": 1.0,
-                                            "start": 81,
-                                            "end": 82
+                                            "start": 0,
+                                            "end": 2
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 54,
+                                            "end": 55
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
                                         },
                                         {
                                             "label": "ORG",
@@ -1072,14 +1042,44 @@
                                         {
                                             "label": "PER",
                                             "score": 1.0,
-                                            "start": 0,
-                                            "end": 2
+                                            "start": 81,
+                                            "end": 82
                                         },
                                         {
-                                            "label": "NORP",
+                                            "label": "DATE",
                                             "score": 1.0,
-                                            "start": 32,
-                                            "end": 33
+                                            "start": 98,
+                                            "end": 99
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 94,
+                                            "end": 97
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
+                                        },
+                                        {
+                                            "label": "PER",
+                                            "score": 1.0,
+                                            "start": 61,
+                                            "end": 62
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 79,
+                                            "end": 80
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 83,
+                                            "end": 84
                                         }
                                     ]
                                 }
@@ -1872,10 +1872,38 @@
                 ],
                 "spans": [
                     [
+                        "DATE",
+                        [
+                            21,
+                            23
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            6,
+                            6
+                        ]
+                    ],
+                    [
+                        "DATE",
+                        [
+                            67,
+                            69
+                        ]
+                    ],
+                    [
                         "GPE",
                         [
-                            63,
-                            63
+                            17,
+                            19
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            36,
+                            38
                         ]
                     ],
                     [
@@ -1886,6 +1914,13 @@
                         ]
                     ],
                     [
+                        "GPE",
+                        [
+                            63,
+                            63
+                        ]
+                    ],
+                    [
                         "ORDINAL",
                         [
                             14,
@@ -1893,10 +1928,10 @@
                         ]
                     ],
                     [
-                        "NORP",
+                        "ORG",
                         [
-                            36,
-                            38
+                            50,
+                            50
                         ]
                     ],
                     [
@@ -1916,15 +1951,8 @@
                     [
                         "ORG",
                         [
-                            0,
-                            3
-                        ]
-                    ],
-                    [
-                        "NORP",
-                        [
-                            6,
-                            6
+                            32,
+                            32
                         ]
                     ],
                     [
@@ -1937,43 +1965,15 @@
                     [
                         "ORG",
                         [
+                            0,
+                            3
+                        ]
+                    ],
+                    [
+                        "ORG",
+                        [
                             28,
                             30
-                        ]
-                    ],
-                    [
-                        "DATE",
-                        [
-                            21,
-                            23
-                        ]
-                    ],
-                    [
-                        "ORG",
-                        [
-                            32,
-                            32
-                        ]
-                    ],
-                    [
-                        "GPE",
-                        [
-                            17,
-                            19
-                        ]
-                    ],
-                    [
-                        "DATE",
-                        [
-                            67,
-                            69
-                        ]
-                    ],
-                    [
-                        "ORG",
-                        [
-                            50,
-                            50
                         ]
                     ]
                 ],
@@ -2429,10 +2429,34 @@
                                     "score": 1.0,
                                     "constituents": [
                                         {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 21,
+                                            "end": 24
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 6,
+                                            "end": 7
+                                        },
+                                        {
+                                            "label": "DATE",
+                                            "score": 1.0,
+                                            "start": 67,
+                                            "end": 70
+                                        },
+                                        {
                                             "label": "GPE",
                                             "score": 1.0,
-                                            "start": 63,
-                                            "end": 64
+                                            "start": 17,
+                                            "end": 20
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 36,
+                                            "end": 39
                                         },
                                         {
                                             "label": "DATE",
@@ -2441,16 +2465,22 @@
                                             "end": 61
                                         },
                                         {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 63,
+                                            "end": 64
+                                        },
+                                        {
                                             "label": "ORDINAL",
                                             "score": 1.0,
                                             "start": 14,
                                             "end": 15
                                         },
                                         {
-                                            "label": "NORP",
+                                            "label": "ORG",
                                             "score": 1.0,
-                                            "start": 36,
-                                            "end": 39
+                                            "start": 50,
+                                            "end": 51
                                         },
                                         {
                                             "label": "GPE",
@@ -2467,14 +2497,8 @@
                                         {
                                             "label": "ORG",
                                             "score": 1.0,
-                                            "start": 0,
-                                            "end": 4
-                                        },
-                                        {
-                                            "label": "NORP",
-                                            "score": 1.0,
-                                            "start": 6,
-                                            "end": 7
+                                            "start": 32,
+                                            "end": 33
                                         },
                                         {
                                             "label": "ORDINAL",
@@ -2485,38 +2509,14 @@
                                         {
                                             "label": "ORG",
                                             "score": 1.0,
+                                            "start": 0,
+                                            "end": 4
+                                        },
+                                        {
+                                            "label": "ORG",
+                                            "score": 1.0,
                                             "start": 28,
                                             "end": 31
-                                        },
-                                        {
-                                            "label": "DATE",
-                                            "score": 1.0,
-                                            "start": 21,
-                                            "end": 24
-                                        },
-                                        {
-                                            "label": "ORG",
-                                            "score": 1.0,
-                                            "start": 32,
-                                            "end": 33
-                                        },
-                                        {
-                                            "label": "GPE",
-                                            "score": 1.0,
-                                            "start": 17,
-                                            "end": 20
-                                        },
-                                        {
-                                            "label": "DATE",
-                                            "score": 1.0,
-                                            "start": 67,
-                                            "end": 70
-                                        },
-                                        {
-                                            "label": "ORG",
-                                            "score": 1.0,
-                                            "start": 50,
-                                            "end": 51
                                         }
                                     ]
                                 }
@@ -3140,31 +3140,24 @@
                         ]
                     ],
                     [
-                        "GPE",
-                        [
-                            60,
-                            61
-                        ]
-                    ],
-                    [
-                        "GPE",
-                        [
-                            27,
-                            27
-                        ]
-                    ],
-                    [
-                        "ORDINAL",
-                        [
-                            53,
-                            53
-                        ]
-                    ],
-                    [
                         "DATE",
                         [
                             58,
                             58
+                        ]
+                    ],
+                    [
+                        "NORP",
+                        [
+                            32,
+                            32
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            60,
+                            61
                         ]
                     ],
                     [
@@ -3175,10 +3168,17 @@
                         ]
                     ],
                     [
-                        "NORP",
+                        "ORDINAL",
                         [
-                            32,
-                            32
+                            53,
+                            53
+                        ]
+                    ],
+                    [
+                        "GPE",
+                        [
+                            27,
+                            27
                         ]
                     ]
                 ],
@@ -3634,28 +3634,22 @@
                                             "end": 6
                                         },
                                         {
-                                            "label": "GPE",
-                                            "score": 1.0,
-                                            "start": 60,
-                                            "end": 62
-                                        },
-                                        {
-                                            "label": "GPE",
-                                            "score": 1.0,
-                                            "start": 27,
-                                            "end": 28
-                                        },
-                                        {
-                                            "label": "ORDINAL",
-                                            "score": 1.0,
-                                            "start": 53,
-                                            "end": 54
-                                        },
-                                        {
                                             "label": "DATE",
                                             "score": 1.0,
                                             "start": 58,
                                             "end": 59
+                                        },
+                                        {
+                                            "label": "NORP",
+                                            "score": 1.0,
+                                            "start": 32,
+                                            "end": 33
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 60,
+                                            "end": 62
                                         },
                                         {
                                             "label": "PER",
@@ -3664,10 +3658,16 @@
                                             "end": 3
                                         },
                                         {
-                                            "label": "NORP",
+                                            "label": "ORDINAL",
                                             "score": 1.0,
-                                            "start": 32,
-                                            "end": 33
+                                            "start": 53,
+                                            "end": 54
+                                        },
+                                        {
+                                            "label": "GPE",
+                                            "score": 1.0,
+                                            "start": 27,
+                                            "end": 28
                                         }
                                     ]
                                 }
