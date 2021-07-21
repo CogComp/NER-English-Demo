@@ -42,19 +42,21 @@ function fillExampleSelectField(lang="eng") {
 	}	
 	selectField.value = "0";
 	textField.value = xel_examples[lang][0];
+	$("#result").html( "" );
 }
 
 function newExampleSelect() {
 	hideResult();
 	//langSelectField = document.getElementById("lang");
 	//lang = langSelectField.value;
-	fillExampleSelectField(lang="eng");
+	//fillExampleSelectField(lang="eng");
 	lang = "eng"
 	exampleSelectField = document.getElementById("example");
 	example = exampleSelectField.value;
 	textField = document.getElementById("text");
 	// textField.value = xel_langs[languageSelected]["text"]; 
 	textField.value = xel_examples[lang][example]; 
+	$("#result").html( "" );
 }
 
 function getSelectedAnnotators() {
