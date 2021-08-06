@@ -10,6 +10,10 @@
     <link rel="stylesheet" type="text/css" href="./html/css/multilang.css">
 	<script src="./html/js/jquery-3.5.1.min.js"></script>
 	<script src="./html/js/multilang.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
     </style>
 </head>
@@ -21,15 +25,15 @@
 				<label> <b>Annotators</b> </label>
 				<br>
 				<input class="w3-check annotator" type="checkbox" checked="checked" id="conll">
-				<label class="container">neural_conll</label>
+				<label>neural_conll</label>
 				<input class="w3-check annotator" type="checkbox" checked="checked" id="onto_ner">
-				<label class="container">neural_onto</label>
+				<label>neural_onto</label>
 				<input class="w3-check annotator" type="checkbox" checked="checked" id="cogcomp_conll">
-				<label class="container">cogcomp_conll</label>
+				<label>cogcomp_conll</label>
 				<input class="w3-check annotator" type="checkbox" checked="checked" id="cogcomp_onto">
-				<label class="container">cogcomp_onto</label>
+				<label>cogcomp_onto</label>
 				<input class="w3-check annotator" type="checkbox" checked="checked" id="kairos_ner">
-				<label class="container">neural_kairos</label>
+				<label>neural_kairos</label>
 				
 				 
 			</div>

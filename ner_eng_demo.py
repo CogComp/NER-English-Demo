@@ -381,7 +381,7 @@ def doProcessInnerCogComp(lang=None, text=None, anns=None, model=None):
     for i in range(len(tokens)):
         h += startAnns[i] + tokens[i] + finalAnns[i] + " "
     h += '<br>&nbsp;'
-    h += '</div><br>&nbsp;'
+    h += '</div>'
     return h
 
 
@@ -421,7 +421,7 @@ def doProcessInnerNeural(lang=None, text=None, anns=None, model=None):
     for i in range(len(tokens)):
         h += startAnns[i] + tokens[i] + finalAnns[i] + " "
     h += '<br>&nbsp;'
-    h += '</div><br>&nbsp;'
+    h += '</div>'
     return h
 
 
@@ -465,22 +465,69 @@ class MyWebService(object):
         if "conll" in data["anns"]:
             html += '<div class="subtitle">Neural: CoNLL</div>'#<br>'
             html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="conll")
+            html += '<div class="panel panel-info ng-scope" ng-if="curator.key"> <div class="panel-heading">Key</div> <div ng-bind-html="curator.key" class="ng-binding">  <div>  \
+                    <table class="table" border="0" width="100%">  <tbody>  \
+                    <tr><td class="text-right"><span class="NER-Neural-PER">PER</span><td> Person</td> <td class="text-right"><span class="NER-Neural-ORG">ORG</span></td><td> Organization</td><td class="text-right"><span class="NER-Neural-LOC">LOC</span></td><td> Location</td> <td class="text-right"><span class="NER-Neural-MISC">MISC</span></td><td> Miscellaneous</td></tr>  \
+                    </tbody> </table> </div> </div> </div></div><br>'
         
         if "onto_ner" in data["anns"]:
             html += '<div class="subtitle">Neural: OntoNotes</div>'#<br>'
             html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="onto_ner")
+            html += '<div class="panel panel-info ng-scope" ng-if="curator.key"> <div class="panel-heading">Key</div> <div ng-bind-html="curator.key" class="ng-binding">  <div>  \
+                    <table class="table" border="0" width="100%">  <tbody>  \
+                    <tr><td class="text-right"><span class="NER-Neural-PER">PER</span><td> People, including fictional</td> <td class="text-right"><span class="NER-Neural-NORP">NORP</span></td><td> Nationalities or religious or political groups</td></tr>  \
+                    <tr><td class="text-right"><span class="NER-Neural-GPE">GPE</span></td><td>Countries, cities, states</td>  <td class="text-right"><span class="NER-Neural-ORG">ORG</span></td><td> Companies, agencies, institutions, etc.</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-FAC">FAC</span></td><td>Buildings, airports, highways, bridges, etc.</td> <td class="text-right"><span class="NER-Neural-LOC">LOC</span></td><td> Non-GPE locations, mountain ranges, bodies of water</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-LAW">LAW</span></td><td>Named documents made into laws</td> <td class="text-right"><span class="NER-Neural-MONEY">MONEY</span></td><td> Monetary values, including unit</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-DATE">DATE</span></td><td>Absolute or relative dates or periods</td> <td class="text-right"><span class="NER-Neural-TIME">TIME</span></td><td>Times smaller than a day</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-PRODUCT">PRODUCT</span></td><td>Vehicles, weapons, foods, etc. (Not services)</td> <td class="text-right"><span class="NER-Neural-EVENT">EVENT</span></td><td> Named hurricanes, battles, wars, sports events, etc.</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-PERCENT">PERCENT</span></td><td>Percentage (including “%”)</td> <td class="text-right"><span class="NER-Neural-QUANTITY">QUANTITY</span></td><td>Measurements, as of weight or distance</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-ORDINAL">ORDINAL</span></td><td>“first”, “second”</td> <td class="text-right"><span class="NER-Neural-CARDINAL">CARDINAL</span></td><td>Numerals that do not fall under another type</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-WORK_OF_ART">WORK_OF_ART</span></td><td>Titles of books, songs, etc.</td> <td class="text-right"><span class="NER-Neural-LANGUAGE">LANGUAGE</span></td><td>Any named language</td></tr>\
+                    </tbody> </table> </div> </div> </div></div><br>'
             
         if "cogcomp_conll" in data["anns"]:
             html += '<div class="subtitle">CogComp: CoNLL</div>'#<br>'
             html += doProcessInnerCogComp(data["lang"] , data["text"] , data["anns"], model="cogcomp_conll")
+            html += '<div class="panel panel-info ng-scope" ng-if="curator.key"> <div class="panel-heading">Key</div> <div ng-bind-html="curator.key" class="ng-binding">  <div>  \
+                    <table class="table" border="0" width="100%">  <tbody>  \
+                    <tr><td class="text-right"><span class="NER-Neural-PER">PER</span><td> Person</td> <td class="text-right"><span class="NER-Neural-ORG">ORG</span></td><td> Organization</td><td class="text-right"><span class="NER-Neural-LOC">LOC</span></td><td> Location</td> <td class="text-right"><span class="NER-Neural-MISC">MISC</span></td><td> Miscellaneous</td></tr>  \
+                    </tbody> </table> </div> </div> </div></div><br>'
 
         if "cogcomp_onto" in data["anns"]:
             html += '<div class="subtitle">CogComp: OntoNotes</div>'#<br>'
             html += doProcessInnerCogComp(data["lang"] , data["text"] , data["anns"], model="cogcomp_onto")
+            html += '<div class="panel panel-info ng-scope" ng-if="curator.key"> <div class="panel-heading">Key</div> <div ng-bind-html="curator.key" class="ng-binding">  <div>  \
+                    <table class="table" border="0" width="100%">  <tbody>  \
+                    <tr><td class="text-right"><span class="NER-Neural-PER">PER</span><td> People, including fictional</td> <td class="text-right"><span class="NER-Neural-NORP">NORP</span></td><td> Nationalities or religious or political groups</td></tr>  \
+                    <tr><td class="text-right"><span class="NER-Neural-GPE">GPE</span></td><td>Countries, cities, states</td>  <td class="text-right"><span class="NER-Neural-ORG">ORG</span></td><td> Companies, agencies, institutions, etc.</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-FAC">FAC</span></td><td>Buildings, airports, highways, bridges, etc.</td> <td class="text-right"><span class="NER-Neural-LOC">LOC</span></td><td> Non-GPE locations, mountain ranges, bodies of water</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-LAW">LAW</span></td><td>Named documents made into laws</td> <td class="text-right"><span class="NER-Neural-MONEY">MONEY</span></td><td> Monetary values, including unit</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-DATE">DATE</span></td><td>Absolute or relative dates or periods</td> <td class="text-right"><span class="NER-Neural-TIME">TIME</span></td><td>Times smaller than a day</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-PRODUCT">PRODUCT</span></td><td>Vehicles, weapons, foods, etc. (Not services)</td> <td class="text-right"><span class="NER-Neural-EVENT">EVENT</span></td><td> Named hurricanes, battles, wars, sports events, etc.</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-PERCENT">PERCENT</span></td><td>Percentage (including “%”)</td> <td class="text-right"><span class="NER-Neural-QUANTITY">QUANTITY</span></td><td>Measurements, as of weight or distance</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-ORDINAL">ORDINAL</span></td><td>“first”, “second”</td> <td class="text-right"><span class="NER-Neural-CARDINAL">CARDINAL</span></td><td>Numerals that do not fall under another type</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-WORK_OF_ART">WORK_OF_ART</span></td><td>Titles of books, songs, etc.</td> <td class="text-right"><span class="NER-Neural-LANGUAGE">LANGUAGE</span></td><td>Any named language</td></tr>\
+                    </tbody> </table> </div> </div> </div></div><br>'
 
         if "kairos_ner" in data["anns"]:
             html += '<div class="subtitle">Neural: KAIROS</div>'#<br>'
             html += doProcessInnerNeural(data["lang"] , data["text"] , data["anns"], model="kairos_ner")
+            html += '<div class="panel panel-info ng-scope" ng-if="curator.key"> <div class="panel-heading">Key</div> <div ng-bind-html="curator.key" class="ng-binding"> <div> \
+                    <table class="table"> <tbody> \
+                    <tr><td class="text-right"><span class="NER-Neural-ABS">ABS</span></td><td>Abstract, non-tangible artifacts such as software</td> <td class="text-right"><span class="NER-Neural-AML">AML</span></td><td> Animal, a non-human living organism which feeds on organic matter</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-BAL">BAL</span></td><td>A ballot for an election</td> <td class="text-right"><span class="NER-Neural-BOD">BOD</span></td><td> An identifiable, living part of an human\'s or animal\'s body,such as a eye, ear, neck, leg, etc</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-COM">COM</span></td><td>A tangible product or article of trade</td> <td class="text-right"><span class="NER-Neural-INF">INF</span></td><td> An information object</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-FAC">FAC</span></td><td>A functional, primarily man-made structure </td> <td class="text-right"><span class="NER-Neural-GPE">GPE</span></td><td> Geopolitical entities such as countries, provinces, states, cities, towns, etc.</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-LAW">LAW</span></td><td>Law, referendum, act, regulation, statute, ordinance, etc.</td> <td class="text-right"><span class="NER-Neural-LOC">LOC</span></td><td> Geopolitical entities such as bodies of wate etc.</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-MHI">MHI</span></td><td>Any medical condition or health issue</td> <td class="text-right"><span class="NER-Neural-MON">MON</span></td><td>A monetary payment</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-NAT">NAT</span></td><td>Valuable naturally materials or substances </td> <td class="text-right"><span class="NER-Neural-PLA">PLA</span></td><td> Plants/flora as well as edible fungi</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-ORG">ORG</span></td><td>Corporations, agencies etc.</td> <td class="text-right"><span class="NER-Neural-PER">PER</span></td><td> Person entities are limited to humans</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-PTH">PTH</span></td><td>An infectious microorganism or agent</td> <td class="text-right"><span class="NER-Neural-RES">RES</span></td><td>The results of a voting event</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-SEN">SEN</span></td><td>The judicial or court sentence in a Justice event</td> <td class="text-right"><span class="NER-Neural-SID">SID</span></td><td>The different sides of a conflict</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-TTL">TTL</span></td><td>A person’s title or job role</td> <td class="text-right"><span class="NER-Neural-VAL">VAL</span></td><td>A numerical value or non-numerical value</td></tr>\
+                    <tr><td class="text-right"><span class="NER-Neural-VEH">VEH</span></td><td>A physical device primarily designed to move an object from one location to another</td> <td class="text-right"><span class="NER-Neural-WEA">WEA</span></td><td>A physical device that is primarily used as an instrument for physically harming or destroying entities</td></tr>\
+                    </tbody> </table> </div> </div> </div></div>'
         
         #self._myTabularView = tabular.TabularView()
         #html = doProcess(self._myTabularView, data["lang"] , data["text"] , data["anns"])
